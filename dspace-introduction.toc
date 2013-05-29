@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Section 1}{1}{0}{1}
+\beamer@subsectionintoc {1}{1}{Uncovering Blockwise}{2}{0}{1}
+\beamer@sectionintoc {2}{Sec 2}{3}{0}{2}

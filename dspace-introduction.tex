@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Init Apollo-NG Beamer Slides
+%
+
+
+\documentclass{beamer}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage[english]{babel}
+\usetikzlibrary{calc}
+\usefonttheme{professionalfonts}
+\usecolortheme[RGB={117,137,12}]{structure}
+
+\definecolor{title}{RGB}{117,137,12}
+\definecolor{block}{RGB}{185,182,174}
+\definecolor{secinhead}{RGB}{227,220,201}
+\definecolor{titlebg}{RGB}{51,51,51}
+\setbeamercolor{secsubsec}{fg=secinhead}
+\setbeamercolor{frametitle}{fg=secinhead}
+\setbeamersize{text margin left=1.75em}
+
+\setbeamertemplate{headline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=2ex]{secsubsec}%
+    \raggedright
+    \hspace*{2em}%
+    {\sffamily\fontsize{7}{9}\selectfont\color{secinhead}\thesection.~\insertsection\hfill\insertsubsection}%
+    \hspace*{2em}%
+  \end{beamercolorbox}%
+  }%
+}
+\setbeamertemplate{frametitle}
+{
+  \leavevmode
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.45ex,dp=0ex]{frametitle}%
+    \raggedright\hspace*{1.3em}\Large\insertframetitle
+  \end{beamercolorbox}
+  }%
+}
+
+\setbeamercovered{transparent}
+
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+\setbeamertemplate{background canvas}{\includegraphics
+	[width=\paperwidth,height=\paperheight]{background.png}}
+
+\makeatletter
+\definecolor{pbfc}{RGB}{117,137,12}% filling color for the progress bar
+\definecolor{pbbg}{HTML}{282828}% background color for the progress bar
+\def\progressbar@progressbar{} % the progress bar
+\newcount\progressbar@tmpcounta% auxiliary counter
+\newcount\progressbar@tmpcountb% auxiliary counter
+\newdimen\progressbar@pbht %progressbar height
+\newdimen\progressbar@pbwd %progressbar width
+\newdimen\progressbar@tmpdim % auxiliary dimension
+
+\progressbar@pbwd=70ex
+\progressbar@pbht=1ex
+
+% the progress bar
+\def\progressbar@progressbar{%
+
+    \progressbar@tmpcounta=\insertframenumber
+    \progressbar@tmpcountb=\inserttotalframenumber
+    \progressbar@tmpdim=\progressbar@pbwd
+    \multiply\progressbar@tmpdim by \progressbar@tmpcounta
+    \divide\progressbar@tmpdim by \progressbar@tmpcountb
+
+  \begin{tikzpicture}[rounded corners=1pt,very thin]
+
+    % Colors
+    \colorlet{border}{black}
+
+    \shade[top color=pbbg!100,bottom color=pbbg!80,top color=pbbg!100]
+      (0pt, 0pt) rectangle ++ (\progressbar@pbwd, \progressbar@pbht);
+
+      \shade[draw=pbfc,top color=pbfc!50,bottom color=pbfc!50,middle color=pbfc] %
+        (0pt, 0pt) rectangle ++ (\progressbar@tmpdim, \progressbar@pbht);
+
+      \draw[color=border]
+      (0pt, 0pt) rectangle (\progressbar@pbwd, \progressbar@pbht);
+  \end{tikzpicture}%
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{normal text}{fg=white}
+
+\addtobeamertemplate{frametitle}{\vskip-0.25ex}{}
+\addtobeamertemplate{footline}{\vskip-0.5ex}{}
+
+\addtobeamertemplate{footline}{}
+{%
+  \begin{beamercolorbox}[ht=3ex,leftskip=1.5ex,rightskip=1ex]{author in head/foot}
+    \progressbar@progressbar  \hspace{1.5ex} \insertframenumber
+    \vspace{1.5ex}
+   \end{beamercolorbox}
+}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Begin Presentation
+%
+
+
+
+\title[DSpace]{\fontsize{22}{24}\selectfont DSpace}
+\subtitle[A new way of handling geolocation based information ]{\fontsize{12}{14}\selectfont \textcolor{block}{A new way of handling geolocation based information }}
+\author[iggy \& chrono]{\\[3ex]iggy \& chrono}
+
+\institute[Apollo-NG]{
+  \includegraphics[scale=0.5]{apollo-mission-badge.pdf}}
+}
+\date[June 2013]{June 13, 2013}
+
+
+\begin{document}
+
+
+%--- the titlepage frame -------------------------%
+{
+\setbeamertemplate{background canvas}{\includegraphics
+	[width=\paperwidth,height=\paperheight]{background-title.png}}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\begin{frame}[plain]
+  \vspace{1em}
+  \titlepage
+\end{frame}
+}
+
+\addtocounter{framenumber}{-1}
+
+%--- the toc frame -------------------------%
+
+{
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\begin{frame}[plain]
+\frametitle{\vspace{-2.12ex}Talk-Contents}
+  \tableofcontents
+\end{frame}
+}
+
+\addtocounter{framenumber}{-1}
+\setcounter{page}{1}
+
+%
+%  Begin Content
+%
+
+\section{Section 1}
+\begin{frame}{A sample slide}{with a subtitle}
+
+A displayed ebola
+
+\[
+  \int_{-\infty}^\infty e^{-x^2} \, dx = \sqrt{\pi}
+\]
+
+An itemized list:
+
+\begin{itemize}
+  \item itemized item 1
+  \item itemized item 2
+  \item itemized item 3
+\end{itemize}
+
+\begin{theorem}
+  In a right triangle, the square of hypotenuse equals
+  the sum of squares of two other sides.
+\end{theorem}
+
+\end{frame}
+
+
+\subsection{Uncovering Blockwise}
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]
+\frametitle{Inserting source code}
+\Fontvi
+\lstset{language=C++,
+				numbers=left,
+				numberstyle=\tiny,
+				numbersep=-1.8ex,
+                basicstyle=\color{black}\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{green}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+    #include<stdio.h>
+    #include<iostream>
+    // A comment
+    int main(void)
+    {
+    printf("Hello World\n");
+    return 0;
+    }
+\end{lstlisting}
+\end{block}
+\end{frame}
+
+\section{Sec 2}
+
+\begin{frame}[The next Section...]
+
+   \begin{columns}
+        \column{.5\textwidth}
+          A figure
+        \column{.5\textwidth}
+        \begin{overprint}
+          \onslide<1>
+          \begin{itemize}
+              \item Item 1
+              \item Item 2
+          \end{itemize}
+          \onslide<2>
+          \begin{itemize}
+              \item Another item 1
+              \item Another item 2
+              \item This list is longer
+              \item Than the previous one
+              \item was
+          \end{itemize}
+        \end{overprint}
+      \end{columns}
+
+\end{frame}
+\end{document}
