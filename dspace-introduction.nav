@@ -3,61 +3,92 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\sectionentry {1}{What do we want?}{1}{What do we want?}{0}}
+\headcommand {\slideentry {0}{0}{3}{3/4}{}{0}}
+\headcommand {\beamer@framepages {3}{4}}
+\headcommand {\slideentry {0}{0}{4}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\sectionentry {1}{Who we are?}{1}{Who we are?}{0}}
 \headcommand {\beamer@sectionpages {1}{0}}
 \headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\slideentry {1}{0}{3}{1/3}{}{0}}
-\headcommand {\beamer@framepages {1}{3}}
-\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{5}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {2}{What do we want?}{2}{What do we want?}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {2}{0}{6}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {2}{0}{7}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {2}{0}{8}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{0}{5}{5/5}{}{0}}
+\headcommand {\slideentry {2}{0}{9}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{0}{6}{6/6}{}{0}}
+\headcommand {\slideentry {2}{0}{10}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{0}{7}{7/7}{}{0}}
+\headcommand {\slideentry {2}{0}{11}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{0}{8}{8/8}{}{0}}
+\headcommand {\slideentry {2}{0}{12}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {2}{What do we have?}{9}{What do we have?}{0}}
-\headcommand {\beamer@sectionpages {1}{8}}
-\headcommand {\beamer@subsectionpages {1}{8}}
-\headcommand {\slideentry {2}{0}{9}{9/9}{}{0}}
+\headcommand {\slideentry {2}{0}{13}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{Basemaps}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {2}{1}{1}{10/11}{Basemaps}{0}}
-\headcommand {\beamer@framepages {10}{11}}
-\headcommand {\slideentry {2}{1}{2}{12/12}{Basemaps}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{1}{3}{13/13}{Basemaps}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {2}{1}{4}{14/14}{Basemaps}{0}}
+\headcommand {\slideentry {2}{0}{14}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\sectionentry {3}{What do we have?}{11}{What do we have?}{0}}
+\headcommand {\beamer@sectionpages {2}{10}}
+\headcommand {\beamer@subsectionpages {2}{10}}
+\headcommand {\slideentry {3}{0}{15}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{0}{16}{12/13}{}{0}}
+\headcommand {\beamer@framepages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Basemaps}}\headcommand {\beamer@subsectionpages {11}{13}}
+\headcommand {\slideentry {3}{1}{1}{14/14}{Basemaps}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{1}{5}{15/15}{Basemaps}{0}}
+\headcommand {\slideentry {3}{1}{2}{15/15}{Basemaps}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{16}{Overlays}}\headcommand {\beamer@subsectionpages {10}{15}}
-\headcommand {\slideentry {2}{2}{1}{16/16}{Overlays}{0}}
+\headcommand {\slideentry {3}{1}{3}{16/16}{Basemaps}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {2}{2}{2}{17/17}{Overlays}{0}}
+\headcommand {\slideentry {3}{1}{4}{17/17}{Basemaps}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{18}{Navigation}}\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\slideentry {2}{3}{1}{18/18}{Navigation}{0}}
+\headcommand {\slideentry {3}{1}{5}{18/18}{Basemaps}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {2}{3}{2}{19/19}{Navigation}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{19}{Overlays}}\headcommand {\beamer@subsectionpages {14}{18}}
+\headcommand {\slideentry {3}{2}{1}{19/19}{Overlays}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{20}{DSpace Client}}\headcommand {\beamer@subsectionpages {18}{19}}
-\headcommand {\slideentry {2}{4}{1}{20/20}{DSpace Client}{0}}
+\headcommand {\slideentry {3}{2}{2}{20/20}{Overlays}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {2}{4}{2}{21/21}{DSpace Client}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{21}{Navigation}}\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\slideentry {3}{3}{1}{21/21}{Navigation}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{4}{3}{22/22}{DSpace Client}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{22}{DSpace Client}}\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\slideentry {3}{4}{1}{22/22}{DSpace Client}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\sectionentry {3}{What do we need?}{23}{What do we need?}{0}}
-\headcommand {\beamer@sectionpages {9}{22}}
-\headcommand {\beamer@subsectionpages {20}{22}}
-\headcommand {\slideentry {3}{0}{4}{23/23}{}{0}}
+\headcommand {\slideentry {3}{4}{2}{23/23}{DSpace Client}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\beamer@sectionpages {23}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\def \inserttotalframenumber {20}}
+\headcommand {\slideentry {3}{4}{3}{24/24}{DSpace Client}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {3}{4}{4}{25/25}{DSpace Client}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {3}{4}{5}{26/26}{DSpace Client}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {3}{4}{6}{27/27}{DSpace Client}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\sectionentry {4}{What do we need?}{28}{What do we need?}{0}}
+\headcommand {\beamer@sectionpages {11}{27}}
+\headcommand {\beamer@subsectionpages {22}{27}}
+\headcommand {\slideentry {4}{0}{7}{28/28}{}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {4}{0}{8}{29/29}{}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {4}{0}{9}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {4}{0}{10}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {4}{0}{11}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {4}{0}{12}{33/33}{}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@partpages {1}{33}}
+\headcommand {\beamer@subsectionpages {28}{33}}
+\headcommand {\beamer@sectionpages {28}{33}}
+\headcommand {\beamer@documentpages {33}}
+\headcommand {\def \inserttotalframenumber {32}}

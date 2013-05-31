@@ -122,7 +122,7 @@
 \institute[Apollo-NG]{
  \includegraphics[scale=0.5]{apollo-mission-badge.pdf}}
 }
-\date[June 2013]{June 13, 2013}
+\date[June 2013]{2013-06-13}
 
 
 \begin{document}
@@ -137,6 +137,37 @@
 \begin{frame}[plain]
  \vspace{1em}
  \titlepage
+\end{frame}
+}
+
+\addtocounter{framenumber}{-1}
+
+
+%--- teaser question -------------------------%
+
+{
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\begin{frame}[plain]
+\frametitle{\vspace{-2.12ex}Question}
+  \textit{If life were a just computer game with awesome sensory input,\linebreak
+  which standard game features would be missing in our interface\linebreak
+  in order to play it well, especially when playing in groups?}
+\end{frame}
+}
+
+\addtocounter{framenumber}{-1}
+
+%--- teaser answer -------------------------%
+
+{
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\begin{frame}[plain]
+\frametitle{\vspace{-2.12ex}Interface View}
+Image Street - boring
+\pause
+Image Street - DSpaced
 \end{frame}
 }
 
@@ -160,38 +191,88 @@
 %  Begin Content
 %
 
+\section{Who we are?}
+
+\begin{frame}{Who we are?}
+ \vspace{1em}
+ \includegraphics[scale=0.4]{dspace-hackers}
+\end{frame}
+
 \section{What do we want?}
 
-\begin{frame}{Question}
- \textit{If life were a just computer game with awesome sensory input,\linebreak
-  which standard game features would be missing in our interface\linebreak
-  in order to play it well, especially when playing in groups?}
- \vspace{2em}
- \pause
- \begin{itemize}[<+->]
-  \item A MiniMap
-  \item Instant group communication
- \end{itemize}
+\begin{frame}{What do we want?}
+ Staging our wants
 \end{frame}
 
-\begin{frame}{Basemaps}
- screenshot and explanation for basemaps
-\end{frame}
-
-\begin{frame}{Overlays}
- screenshot and explanation for overlays
-\end{frame}
-
-\begin{frame}{Basic rules}{with a subtitle}
+\begin{frame}{Something like a standard}{with a subtitle}
  Increase the likelyhood and efficiency of adding/sharing information by introducing
  a standardized framework like the W3c in 1993.
  \begin{itemize}
   \item Federation
-  \item Free to use
+  \item Free
   \item Open Source
   \item Lose Bindings
   \item Modular Extensions
  \end{itemize}
+\end{frame}
+
+\begin{frame}{Basemaps}
+ \begin{columns}
+  \column{.5\textwidth}
+   \includegraphics[scale=0.5]{basemap_layers}
+  \column{.5\textwidth}
+   \begin{itemize}
+    \item Roads
+    \item Lands
+    \item Boundaries
+    \item Hydrography
+    \item Topography
+    \item Land Imagery
+   \end{itemize}
+ \end{columns}
+\end{frame}
+
+\begin{frame}{Basemaps II}
+ \begin{columns}
+  \column{.5\textwidth}
+   \includegraphics[scale=0.5]{basemap_tile}
+  \column{.5\textwidth}
+   \begin{itemize}
+    \item Static / longterm
+    \item general interest
+    \item only one is visible at a time
+    \item composition depends on region/application
+   \end{itemize}
+ \end{columns}
+\end{frame}
+
+\begin{frame}{Overlays}
+ \begin{columns}
+  \column{.5\textwidth}
+   \begin{itemize}
+    \item POIs
+    \item location tracking
+    \item waypoints on a route
+    \item (Basemap)
+   \end{itemize}
+  \column{.5\textwidth}
+   \includegraphics[scale=0.5]{overlay_bar}
+ \end{columns}
+\end{frame}
+
+\begin{frame}{Overlays}
+ \begin{columns}
+  \column{.5\textwidth}
+   \begin{itemize}
+    \item collections of things at locations
+    \item public or private
+    \item can be very dynamic (e.g. realtime tracking)
+    \item many can be visible (overlayed) at a time
+    \item can be user-generated and -updated
+   \end{itemize}
+  \column{.5\textwidth}
+   \includegraphics[scale=0.5]{overlay_foo}
+ \end{columns}
 \end{frame}
 
 \begin{frame}{Overlay ideas}{}
@@ -232,28 +313,49 @@
  \end{itemize}
 \end{frame}
 
+\begin{frame}{Architecture Overview}
+Image of Architecture
+TileMill -> TileStream -> DSpace Client <- Directory Server
+-Remotestorage
+-feeds
+-Routino
 
+\end{frame}
 
 
 
 \section{What do we have?}
 
+\begin{frame}{What do we need?}
+ Staging our haves
+\end{frame}
+
 \begin{frame}{What do we have?}
 Before we start to re-invent the wheel, let's have a look at what other
 generous people already have developed and shared with the rest of humankind.
+\pause
+Images of project logos (OSM, remotestorage, NASA, DLR, ...)
 \end{frame}
 
 
 \subsection{Basemaps}
 
-\begin{frame}{Basemaps}
+
+\begin{frame}{OSM}
+ OSM is great, and fundamental for DSpace, but:
  \begin{columns}
   \column{.5\textwidth}
-   OSM Rendered Map
+    not everything is in OSM (Topo, arial)
+    Image OSM Rendered Map
   \column{.5\textwidth}
-   \pause
-   DSpace self-rendered Map
+    not everything belongs in OSM (tracking, personal POIs)
+    DSpace self-rendered Map
+
  \end{columns}
+-> openSTREETMap
+%    user collects data -> OSM -> OSM team filters/manages additions -> OSM Updates releases
+%    -> OSM Dump -> PostGIS -> TileMill + SRTM Topo Data -> TileStream -> user receives/updates data
+
 \end{frame}
 
 
@@ -305,7 +407,7 @@ Live DEMO
 
 \subsection{Overlays}
 
-\begin{frame}{Read-Only}
+\begin{frame}{Overlays: Read-Only}
  \begin{itemize}
   \item Simple HTTP GeoJSON Feed
   \item SpaceAPI
@@ -329,50 +431,167 @@ Live DEMO
  \end{itemize}
 \end{frame}
 
-\begin{frame}{Read-Write}
-\begin{itemize}
-  \item remotestorage.io
-\end{itemize}
-\end{frame}
-
 
 \subsection{DSpace Client}
 
 \begin{frame}{DSpace Client}
  Introduction on the Client
+ now we have nice basemaps and sources for overlays
+
+ presentation comes together in the client
 \end{frame}
 
-\begin{frame}{Javascript Dependencies}{}
- \begin{itemize}
-  \item Ender
-  \item Underscore
-  \item Backbone
-  \item Bean
-  \item Bonzo
-  \item DOMReady
-  \item RequireJS
-  \item Qwery
-  \item Morpheus
-  \item Reqwest
- \end{itemize}
+
+\begin{frame}{Client}
+Live DEMO
 \end{frame}
 
-\begin{frame}{Build Dependencies}{}
- \begin{itemize}
-  \item Almond (AMD)
-  \item Handlebars
-  \item CSSO
- \end{itemize}
+\begin{frame}{Client}
+Client-side js
+assembled, built and packaged in node.js
+focus on: as lightweight as possible
+Powerful Plugin-API
+Mobile Readiness/Integration
+\end{frame}
+
+
+
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]{NPM Package Overview}
+\Fontvi
+\lstset{language=C++,
+                basicstyle=\color{black}\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{green}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+   almond@0.2.4
+   backbone@0.9.10
+   bean@1.0.3
+   bonzo@1.3.5
+   csso@1.3.7
+   domready@0.2.11
+   + ender@1.1.0
+   + ender-js@0.4.4-1 extraneous
+   handlebars@1.0.8
+     optimist@0.3.5
+       wordwrap@0.0.2
+     uglify-js@1.2.6
+   morpheus@0.6.7
+   qwery@3.4.1
+   requirejs@2.1.4
+   reqwest@0.6.4
+   underscore@1.4.4
+\end{lstlisting}
+\end{block}
+\end{frame}
+
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]{Comfortable Build Process}
+\Fontvi
+\lstset{language=C,
+                basicstyle=\color{black}\ttfamily,
+                morecomment=[l][\color{white}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+  # make init
+  Rebuilding GIT submodules... [OK]
+  Building local deps... [OK]
+  Building AMD Deps... [OK]
+  Assembling JS components... [OK]
+
+  # make deps
+  Building Ender... [OK]
+  Building local deps... [OK]
+  Building AMD Deps... [OK]
+  Assembling JS components... [OK]
+
+  # make build
+  Building Ender... [OK]
+  Building local deps... [OK]
+  Building AMD Deps... [OK]
+  Assembling JS components... [OK]
+  Cleaning up build/... [OK]
+  Build & minify dspace-client.js... [OK]
+  Copying Assets... [OK]
+  Copying Plugin Assets... [OK]
+  Merging and compressing dspace-client.css... [OK]
+  >>> Client build complete
+\end{lstlisting}
+\end{block}
+\end{frame}
+
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]{Ops friendly deploy}
+Taking care of easy and structured deployment to leave flexibility for
+different setups and potential rewrite issues.
+\linebreak
+\Fontvi
+\lstset{language=C,
+                basicstyle=\color{black}\ttfamily,
+                morecomment=[l][\color{white}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+  + assets
+    + css
+      - dspace-client.js
+    + icons
+    + images
+  index.html
+  + plugins
+    + remotestorage
+      + assets
+        - remoteStorageIcon.svg
+        - style.css
+    + search
+      + assets
+\end{lstlisting}
+\end{block}
 \end{frame}
 
 
 
 \section{What do we need?}
 
-\begin{frame}{DSpace Client}
- Introduction on the Client
+\begin{frame}{What do we need?}
+ Staging our needs
 \end{frame}
 
+\begin{frame}{Directory Server}
+ Federated searchable ranked, geobounded, tagged list of basemaps and overlay feeds
+ ...
+\end{frame}
+
+\begin{frame}{Client}
+ more overlay functionality (polygons, 3D, translated images ...)
+ mobile integration (ios, android, glass)
+ Overlay browser
+\end{frame}
+
+\begin{frame}{Collaboration}
+ People forging and serving basemaps for their area
+ People exposing existing geodata as dspace overlay feeds
+ People helping with docs, bugs, issues, features (mostly on the client for now)
+\end{frame}
+
+\begin{frame}{Utopia}
+ Augmented Reality glasses (contact lens FTW!)
+ ...
+\end{frame}
+
+\begin{frame}{THEEND}
+ Thanks for your attention.
+
+ Discussion
+\end{frame}
 
 
 \end{document}

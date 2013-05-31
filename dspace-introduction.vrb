@@ -1,28 +1,26 @@
-\frametitle{Map Forge}
-\begin{itemize}
-  \item NodeJS
-  \item Mapnik + TileMill + OSM-Bright
-  \item PostgreSQL + PostGIS + imposm
-  \item OpenStreepMap data
-  \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo data
-  \item DLR SRTM X-Band SAR 25m Topo data
-  \item TerraSAR-X/TanDEM-X data (Future)
- \end{itemize}
+\frametitle{Ops friendly deploy}
+Taking care of easy and structured deployment to leave flexibility for
+different setups and potential rewrite issues.
+\linebreak
 \Fontvi
-\lstset{language=C++,
-numbers=left,
-numberstyle=\tiny,
-numbersep=-1.8ex,
+\lstset{language=C,
                 basicstyle=\color{black}\ttfamily,
-                keywordstyle=\color{blue}\ttfamily,
-                stringstyle=\color{red}\ttfamily,
-                commentstyle=\color{green}\ttfamily,
-                morecomment=[l][\color{magenta}]{\#}
+                morecomment=[l][\color{white}]{\#}
 }
 \begin{block}{}
 \begin{lstlisting}
-    imposm -U gisuser -d gis -m \
-    /tmp/osm-bright/imposm-mapping.py --overwrite-cache --read --write --optimize \
-    --deploy-production-tables planet-latest.osm.pbf
+  + assets
+    + css
+      - dspace-client.js
+    + icons
+    + images
+  index.html
+  + plugins
+    + remotestorage
+      + assets
+        - remoteStorageIcon.svg
+        - style.css
+    + search
+      + assets
 \end{lstlisting}
 \end{block}
