@@ -68,28 +68,24 @@
 \progressbar@pbht=1ex
 
 % the progress bar
-\def\progressbar@progressbar{%
+\def\progressbar@progressbar
+{%
+ \progressbar@tmpcounta=\insertframenumber
+ \progressbar@tmpcountb=\inserttotalframenumber
+ \progressbar@tmpdim=\progressbar@pbwd
+ \multiply\progressbar@tmpdim by \progressbar@tmpcounta
+ \divide\progressbar@tmpdim by \progressbar@tmpcountb
 
-    \progressbar@tmpcounta=\insertframenumber
-    \progressbar@tmpcountb=\inserttotalframenumber
-    \progressbar@tmpdim=\progressbar@pbwd
-    \multiply\progressbar@tmpdim by \progressbar@tmpcounta
-    \divide\progressbar@tmpdim by \progressbar@tmpcountb
-
-  \begin{tikzpicture}[rounded corners=1pt,very thin]
-
-    % Colors
-    \colorlet{border}{black}
-
-    \shade[top color=pbbg!100,bottom color=pbbg!80,top color=pbbg!100]
-      (0pt, 0pt) rectangle ++ (\progressbar@pbwd, \progressbar@pbht);
-
-      \shade[draw=pbfc,top color=pbfc!50,bottom color=pbfc!50,middle color=pbfc] %
-        (0pt, 0pt) rectangle ++ (\progressbar@tmpdim, \progressbar@pbht);
-
-      \draw[color=border]
-      (0pt, 0pt) rectangle (\progressbar@pbwd, \progressbar@pbht);
-  \end{tikzpicture}%
+ \begin{tikzpicture}[rounded corners=1pt,very thin]
+  % Colors
+  \colorlet{border}{black}
+  \shade[top color=pbbg!100,bottom color=pbbg!80,top color=pbbg!100]
+   (0pt, 0pt) rectangle ++ (\progressbar@pbwd, \progressbar@pbht);
+  \shade[draw=pbfc,top color=pbfc!50,bottom color=pbfc!50,middle color=pbfc] %
+   (0pt, 0pt) rectangle ++ (\progressbar@tmpdim, \progressbar@pbht);
+  \draw[color=border]
+   (0pt, 0pt) rectangle (\progressbar@pbwd, \progressbar@pbht);
+ \end{tikzpicture}%
 }
 
 
@@ -101,10 +97,10 @@
 
 \addtobeamertemplate{footline}{}
 {%
-  \begin{beamercolorbox}[ht=3ex,leftskip=1.5ex,rightskip=1ex]{author in head/foot}
-    \progressbar@progressbar  \hspace{1.5ex} \textcolor{title}\insertframenumber
-    \vspace{1.5ex}
-   \end{beamercolorbox}
+ \begin{beamercolorbox}[ht=3ex,leftskip=1.5ex,rightskip=1ex]{author in head/foot}
+  \progressbar@progressbar  \hspace{1.5ex} \textcolor{title}\insertframenumber
+   \vspace{1.5ex}
+  \end{beamercolorbox}
 }
 \makeatother
 
@@ -124,7 +120,7 @@
 \author[iggy \& chrono]{\\[3ex]iggy \& chrono}
 
 \institute[Apollo-NG]{
-  \includegraphics[scale=0.5]{apollo-mission-badge.pdf}}
+ \includegraphics[scale=0.5]{apollo-mission-badge.pdf}}
 }
 \date[June 2013]{June 13, 2013}
 
@@ -135,12 +131,12 @@
 %--- the titlepage frame -------------------------%
 {
 \setbeamertemplate{background canvas}{\includegraphics
-	[width=\paperwidth,height=\paperheight]{background-title.png}}
+ [width=\paperwidth,height=\paperheight]{background-title.png}}
 \setbeamertemplate{headline}{}
 \setbeamertemplate{footline}{}
 \begin{frame}[plain]
-  \vspace{1em}
-  \titlepage
+ \vspace{1em}
+ \titlepage
 \end{frame}
 }
 
@@ -153,7 +149,7 @@
 \setbeamertemplate{footline}{}
 \begin{frame}[plain]
 \frametitle{\vspace{-2.12ex}Talk-Contents}
-  \tableofcontents
+ \tableofcontents
 \end{frame}
 }
 
@@ -164,33 +160,31 @@
 %  Begin Content
 %
 
-\section{Overview}
+\section{What do we want?}
 
 \begin{frame}{Question}
-If life were a just computer game with awesome sensory input,\linebreak
-which standard game features would be missing in our interface,\linebreak
-in order to play it well, especially when playing in groups?
-\vspace{2em}
-\pause
-\begin{itemize}[<+->]
+ \textit{If life were a just computer game with awesome sensory input,\linebreak
+  which standard game features would be missing in our interface\linebreak
+  in order to play it well, especially when playing in groups?}
+ \vspace{2em}
+ \pause
+ \begin{itemize}[<+->]
   \item A MiniMap
   \item Instant group communication
-\end{itemize}
+ \end{itemize}
 \end{frame}
 
-
-
 \begin{frame}{Basemaps}
-screenshot and explanation for basemaps
+ screenshot and explanation for basemaps
 \end{frame}
 
 \begin{frame}{Overlays}
-screenshot and explanation for overlays
+ screenshot and explanation for overlays
 \end{frame}
 
 \begin{frame}{Basic rules}{with a subtitle}
-Increase the likelyhood and efficiency of adding/sharing information by introducing
-a standardized framework like the W3c in 1993.
+ Increase the likelyhood and efficiency of adding/sharing information by introducing
+ a standardized framework like the W3c in 1993.
  \begin{itemize}
   \item Federation
   \item Free to use
@@ -239,94 +233,42 @@ a standardized framework like the W3c in 1993.
 \end{frame}
 
 
-\section{Infrastructure}
 
-\begin{frame}{Infrastructure}
-What do we need to get somewhere?
+
+
+\section{What do we have?}
+
+\begin{frame}{What do we have?}
+Before we start to re-invent the wheel, let's have a look at what other
+generous people already have developed and shared with the rest of humankind.
 \end{frame}
+
 
 \subsection{Basemaps}
 
-\begin{frame}{Map Forgery}
-
-\begin{itemize}
-  \item TileMill
-  \item Import OpenStreepmap data
-  \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo
-  \item DLR SRTM X-Band SAR 25m Topo
-  \item TerraSAR-X/TanDEM-X (Future)
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Map Delivery}
-
-\begin{itemize}
-  \item TileStream
-\end{itemize}
-
+\begin{frame}{Basemaps}
+ \begin{columns}
+  \column{.5\textwidth}
+   OSM Rendered Map
+  \column{.5\textwidth}
+   \pause
+   DSpace self-rendered Map
+ \end{columns}
 \end{frame}
 
 
-
-
-\subsection{Overlays}
-
-\begin{frame}{Read-Only}
-\begin{itemize}
-  \item Simple HTTP GeoJSON Feed
-  \item SpaceAPI
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{Read-Write}
-\begin{itemize}
-  \item remotestorage.io
-\end{itemize}
-\end{frame}
-
-
-
-
-\section{DSpace Client}
-\subsection{Overview}
-
-
-\begin{frame}{Javascript Dependencies}{}
-
-  \begin{itemize}
-    \item Ender
-    \item Underscore
-    \item Backbone
-    \item Bean
-    \item Bonzo
-    \item DOMReady
-    \item RequireJS
-    \item Qwery
-    \item Morpheus
-    \item Reqwest
-  \end{itemize}
-
-\end{frame}
-
-
-\begin{frame}{Build Dependencies}{}
-
-  \begin{itemize}
-    \item Almond (AMD)
-    \item Handlebars
-    \item CSSO
-  \end{itemize}
-
-\end{frame}
-
-
-\subsection{Uncovering Blockwise}
 \setbeamertemplate{blocks}[rounded]
 \setbeamercolor{block body}{bg=block}
-\begin{frame}[fragile]
-\frametitle{Inserting source code}
+\begin{frame}[fragile]{Map Forge}
+ \begin{itemize}
+  \item NodeJS
+  \item Mapnik + TileMill + OSM-Bright
+  \item PostgreSQL + PostGIS + imposm
+  \item OpenStreepMap data
+  \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo data
+  \item DLR SRTM X-Band SAR 25m Topo data
+  \item TerraSAR-X/TanDEM-X data (Future)
+ \end{itemize}
 \Fontvi
 \lstset{language=C++,
 				numbers=left,
@@ -340,42 +282,97 @@ What do we need to get somewhere?
 }
 \begin{block}{}
 \begin{lstlisting}
-    #include<stdio.h>
-    #include<iostream>
-    // A comment
-    int main(void)
-    {
-      printf("Hello World\n");
-      return 0;
-    }
+    imposm -U gisuser -d gis -m \
+    /tmp/osm-bright/imposm-mapping.py --overwrite-cache --read --write --optimize \
+    --deploy-production-tables planet-latest.osm.pbf
 \end{lstlisting}
 \end{block}
 \end{frame}
 
-\section{Sec 2}
-
-\begin{frame}[The next Section...]
-
-   \begin{columns}
-        \column{.5\textwidth}
-          A figure
-        \column{.5\textwidth}
-        \begin{overprint}
-          \onslide<1>
-          \begin{itemize}
-              \item Item 1
-              \item Item 2
-          \end{itemize}
-          \onslide<2>
-          \begin{itemize}
-              \item Another item 1
-              \item Another item 2
-              \item This list is longer
-              \item Than the previous one
-              \item was
-          \end{itemize}
-        \end{overprint}
-      \end{columns}
-
+\begin{frame}{Map Forge Screenshot}
+Include picture of Map Forge in action
 \end{frame}
+
+\begin{frame}{Map Delivery}
+ \begin{itemize}
+  \item NodeJS + TileStream
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Map Delivery}
+Live DEMO
+\end{frame}
+
+\subsection{Overlays}
+
+\begin{frame}{Read-Only}
+ \begin{itemize}
+  \item Simple HTTP GeoJSON Feed
+  \item SpaceAPI
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Read-Write}
+ \begin{itemize}
+  \item remotestorage.io
+ \end{itemize}
+\end{frame}
+
+
+\subsection{Navigation}
+
+\begin{frame}{Navigation}
+ \begin{itemize}
+  \item Routino
+  \item OpenStreetmap import
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Read-Write}
+\begin{itemize}
+  \item remotestorage.io
+\end{itemize}
+\end{frame}
+
+
+\subsection{DSpace Client}
+
+\begin{frame}{DSpace Client}
+ Introduction on the Client
+\end{frame}
+
+\begin{frame}{Javascript Dependencies}{}
+ \begin{itemize}
+  \item Ender
+  \item Underscore
+  \item Backbone
+  \item Bean
+  \item Bonzo
+  \item DOMReady
+  \item RequireJS
+  \item Qwery
+  \item Morpheus
+  \item Reqwest
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Build Dependencies}{}
+ \begin{itemize}
+  \item Almond (AMD)
+  \item Handlebars
+  \item CSSO
+ \end{itemize}
+\end{frame}
+
+
+
+\section{What do we need?}
+
+\begin{frame}{DSpace Client}
+ Introduction on the Client
+\end{frame}
+
+
+
 \end{document}

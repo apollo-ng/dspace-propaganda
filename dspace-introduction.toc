@@ -1,10 +1,9 @@
 \beamer@endinputifotherversion {3.20pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Overview}{1}{0}{1}
-\beamer@sectionintoc {2}{Infrastructure}{9}{0}{2}
+\beamer@sectionintoc {1}{What do we want?}{1}{0}{1}
+\beamer@sectionintoc {2}{What do we have?}{9}{0}{2}
 \beamer@subsectionintoc {2}{1}{Basemaps}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Overlays}{12}{0}{2}
-\beamer@sectionintoc {3}{DSpace Client}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Overview}{14}{0}{3}
-\beamer@subsectionintoc {3}{2}{Uncovering Blockwise}{16}{0}{3}
-\beamer@sectionintoc {4}{Sec 2}{17}{0}{4}
+\beamer@subsectionintoc {2}{2}{Overlays}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Navigation}{18}{0}{2}
+\beamer@subsectionintoc {2}{4}{DSpace Client}{20}{0}{2}
+\beamer@sectionintoc {3}{What do we need?}{23}{0}{3}

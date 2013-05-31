@@ -1,4 +1,13 @@
-\frametitle{Inserting source code}
+\frametitle{Map Forge}
+\begin{itemize}
+  \item NodeJS
+  \item Mapnik + TileMill + OSM-Bright
+  \item PostgreSQL + PostGIS + imposm
+  \item OpenStreepMap data
+  \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo data
+  \item DLR SRTM X-Band SAR 25m Topo data
+  \item TerraSAR-X/TanDEM-X data (Future)
+ \end{itemize}
 \Fontvi
 \lstset{language=C++,
 numbers=left,
@@ -12,13 +21,8 @@ numbersep=-1.8ex,
 }
 \begin{block}{}
 \begin{lstlisting}
-    #include<stdio.h>
-    #include<iostream>
-    // A comment
-    int main(void)
-    {
-      printf("Hello World\n");
-      return 0;
-    }
+    imposm -U gisuser -d gis -m \
+    /tmp/osm-bright/imposm-mapping.py --overwrite-cache --read --write --optimize \
+    --deploy-production-tables planet-latest.osm.pbf
 \end{lstlisting}
 \end{block}

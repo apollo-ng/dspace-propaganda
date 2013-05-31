@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.11.1)  31 MAY 2013 18:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.11.1)  31 MAY 2013 20:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -864,10 +864,10 @@ Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 124.
+(hyperref)                removing `\\' on input line 120.
 
 ! Too many }'s.
-l.128 }
+l.124 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -875,43 +875,43 @@ Such booboos are generally harmless, so keep going.
 (./dspace-introduction.aux)
 \openout1 = `dspace-introduction.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 132.
-LaTeX Font Info:    Try loading font information for OML+pxmi on input line 132
+LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 128.
+LaTeX Font Info:    Try loading font information for OML+pxmi on input line 128
 .
  (/usr/share/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
 File: omlpxmi.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 132.
-LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 132
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 128.
+LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 128
 .
  (/usr/share/texmf-dist/tex/latex/pxfonts/omspxsy.fd
 File: omspxsy.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 132.
-LaTeX Font Info:    Try loading font information for OMX+pxex on input line 132
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 128.
+LaTeX Font Info:    Try loading font information for OMX+pxex on input line 128
 .
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/omxpxex.fd
 File: omxpxex.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 132.
-LaTeX Font Info:    Try loading font information for U+pxexa on input line 132.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 128.
+LaTeX Font Info:    Try loading font information for U+pxexa on input line 128.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/upxexa.fd
 File: upxexa.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Try loading font information for OT1+pxss on input line 132
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Try loading font information for OT1+pxss on input line 128
 .
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/ot1pxss.fd
@@ -981,7 +981,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 132.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -991,9 +991,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 132.
-LaTeX Info: Redefining \pageref on input line 132.
-LaTeX Info: Redefining \nameref on input line 132.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (./dspace-introduction.out) (./dspace-introduction.out)
 \@outlinefile=\write5
@@ -1024,98 +1024,112 @@ Dictionary: translator-numbers-dictionary, Language: English
 m-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 132.
+LaTeX Info: Redefining \includegraphics on input line 128.
 \c@lstlisting=\count180
 
 (./dspace-introduction.nav)
-<apollo-mission-badge.pdf, id=47, 128.0374pt x 128.0374pt>
+<apollo-mission-badge.pdf, id=43, 128.0374pt x 128.0374pt>
 File: apollo-mission-badge.pdf Graphic file (type pdf)
 
 <use apollo-mission-badge.pdf>
-Package pdftex.def Info: apollo-mission-badge.pdf used on input line 144.
+Package pdftex.def Info: apollo-mission-badge.pdf used on input line 140.
 (pdftex.def)             Requested size: 64.01852pt x 64.01852pt.
 
-<background-title.png, id=48, 1027.84pt x 770.88pt>
+<background-title.png, id=44, 1027.84pt x 770.88pt>
 File: background-title.png Graphic file (type png)
  <use background-title.png>
-Package pdftex.def Info: background-title.png used on input line 144.
+Package pdftex.def Info: background-title.png used on input line 140.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
 
 [1
 
 {//var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./background-title.png> <
 ./apollo-mission-badge.pdf>] (./dspace-introduction.toc)
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 157--157
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 153--153
 [][][][]  
  []
 
-<background.png, id=112, 1027.84pt x 770.88pt>
+<background.png, id=107, 1027.84pt x 770.88pt>
 File: background.png Graphic file (type png)
  <use background.png>
-Package pdftex.def Info: background.png used on input line 157.
+Package pdftex.def Info: background.png used on input line 153.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [2
 
  <./background.png>]
-LaTeX Font Info:    Try loading font information for OT1+pxr on input line 179.
+LaTeX Font Info:    Font shape `OT1/pxss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pxss/m/sl' tried instead on input line 175.
+
+LaTeX Font Info:    Try loading font information for OT1+pxr on input line 175.
 
  (/usr/share/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
 File: ot1pxr.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsya on input line 179.
+LaTeX Font Info:    Try loading font information for U+pxsya on input line 175.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/upxsya.fd
 File: upxsya.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyb on input line 179.
+LaTeX Font Info:    Try loading font information for U+pxsyb on input line 175.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/upxsyb.fd
 File: utxsyb.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxmia on input line 179.
+LaTeX Font Info:    Try loading font information for U+pxmia on input line 175.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/upxmia.fd
 File: upxmia.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyc on input line 179.
+LaTeX Font Info:    Try loading font information for U+pxsyc on input line 175.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/upxsyc.fd
 File: upxsyc.fd 2000/12/14 v1.0
 )
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 179--179
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 175--175
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 179.
+Package pdftex.def Info: background.png used on input line 175.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 \end{frame}
+l.175 \end{frame}
                   [1
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 179--179
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 175--175
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 179.
+Package pdftex.def Info: background.png used on input line 175.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.179 \end{frame}
+l.175 \end{frame}
                   [2
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 175--175
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 175.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [3
 
 ]
 Overfull \hbox (4.00319pt too wide) in paragraph at lines 179--179
@@ -1126,49 +1140,38 @@ File: background.png Graphic file (type png)
 <use background.png>
 Package pdftex.def Info: background.png used on input line 179.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
- [3
-
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 185--185
-[][][][]  
- []
-
-File: background.png Graphic file (type png)
-<use background.png>
-Package pdftex.def Info: background.png used on input line 185.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [4
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 189--189
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 183--183
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 189.
+Package pdftex.def Info: background.png used on input line 183.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [5
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 201--201
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 195--195
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 201.
+Package pdftex.def Info: background.png used on input line 195.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [6
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 226--226
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 220--220
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 226.
+Package pdftex.def Info: background.png used on input line 220.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [7
 
@@ -1186,92 +1189,48 @@ Missing character: There is no â in font txss!
 Missing character: There is no ‡ in font txss!
 Missing character: There is no ’ in font txss!
 
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 239--239
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 233--233
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 239.
+Package pdftex.def Info: background.png used on input line 233.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [8
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 246--246
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 244--244
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 246.
+Package pdftex.def Info: background.png used on input line 244.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [9
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 260--260
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 257--257
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 260.
+Package pdftex.def Info: background.png used on input line 257.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [10
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 268--268
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 257--257
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 268.
+Package pdftex.def Info: background.png used on input line 257.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [11
-
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 280--280
-[][][][]  
- []
-
-File: background.png Graphic file (type png)
-<use background.png>
-Package pdftex.def Info: background.png used on input line 280.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
- [12
-
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 287--287
-[][][][]  
- []
-
-File: background.png Graphic file (type png)
-<use background.png>
-Package pdftex.def Info: background.png used on input line 287.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
- [13
-
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 311--311
-[][][][]  
- []
-
-File: background.png Graphic file (type png)
-<use background.png>
-Package pdftex.def Info: background.png used on input line 311.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
- [14
-
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 322--322
-[][][][]  
- []
-
-File: background.png Graphic file (type png)
-<use background.png>
-Package pdftex.def Info: background.png used on input line 322.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
- [15
 
 ]
 \openout4 = `dspace-introduction.vrb'.
@@ -1286,36 +1245,142 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 14.
+LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 23.
 
 
 (/usr/share/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
 File: ot1pxtt.fd 2000/12/14 v1.0
 ))
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 353--353
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 290--290
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 353.
+Package pdftex.def Info: background.png used on input line 290.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [12
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 294--294
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 294.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [13
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 300--300
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 300.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [14
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 304--304
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 304.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [15
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 313--313
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 313.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [16
 
 ]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 320--320
+[][][][]  
+ []
+
 File: background.png Graphic file (type png)
- <use background.png>
-Package pdftex.def Info: background.png used on input line 380.
+<use background.png>
+Package pdftex.def Info: background.png used on input line 320.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [17
 
 ]
-File: background.png Graphic file (type png)
- <use background.png>
-Package pdftex.def Info: background.png used on input line 380.
-(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 330--330
+[][][][]  
+ []
 
-[18
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 330.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [18
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 336--336
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 336.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [19
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 343--343
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 343.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [20
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 358--358
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 358.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [21
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 366--366
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 366.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [22
+
+]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 374--374
+[][][][]  
+ []
+
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png used on input line 374.
+(pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
+ [23
 
 ]
 \tf@nav=\write6
@@ -1327,30 +1392,31 @@ Package pdftex.def Info: background.png used on input line 380.
 \tf@snm=\write8
 \openout8 = `dspace-introduction.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
  (./dspace-introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
 Package rerunfilecheck Info: File `dspace-introduction.out' has not changed.
-(rerunfilecheck)             Checksum: 4D878A844D9C97A87480CBA009FEE64C;424.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 381.
+(rerunfilecheck)             Checksum: 34DF299B0191B67822BF66E99FC7BB11;392.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 19915 strings out of 495027
- 367040 string characters out of 3181743
- 463749 words of memory out of 3000000
- 22560 multiletter control sequences out of 15000+200000
- 32327 words of font info for 80 fonts, out of 3000000 for 9000
+ 19971 strings out of 495027
+ 367562 string characters out of 3181743
+ 467217 words of memory out of 3000000
+ 22604 multiletter control sequences out of 15000+200000
+ 34510 words of font info for 83 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,16n,63p,425b,1464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,63p,425b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/pxfonts/pxsya.pfb></usr/share/texmf-dist/fonts/type1/public/txf
-onts/txtt.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dspace-introduction.pdf (20 pages, 876718 bytes).
+onts/txtt.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
+share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on dspace-introduction.pdf (25 pages, 886249 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
