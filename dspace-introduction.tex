@@ -17,11 +17,12 @@
 \usecolortheme[RGB={117,137,12}]{structure}
 
 \definecolor{title}{RGB}{117,137,12}
+\definecolor{subtitle}{RGB}{230,230,230}
 \definecolor{block}{RGB}{185,182,174}
 \definecolor{secinhead}{RGB}{227,220,201}
 \definecolor{titlebg}{RGB}{51,51,51}
 \setbeamercolor{secsubsec}{fg=secinhead}
-\setbeamercolor{frametitle}{fg=secinhead}
+\setbeamercolor{frametitle}{fg=title}
 \setbeamersize{text margin left=1.75em}
 
 \setbeamertemplate{headline}
@@ -46,7 +47,7 @@
   }%
 }
 
-\setbeamercovered{transparent}
+%\setbeamercovered{transparent} Activating this breaks \pause and sequenced items
 
 \newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
 
@@ -101,7 +102,7 @@
 \addtobeamertemplate{footline}{}
 {%
   \begin{beamercolorbox}[ht=3ex,leftskip=1.5ex,rightskip=1ex]{author in head/foot}
-    \progressbar@progressbar  \hspace{1.5ex} \insertframenumber
+    \progressbar@progressbar  \hspace{1.5ex} \textcolor{title}\insertframenumber
     \vspace{1.5ex}
    \end{beamercolorbox}
 }
@@ -119,7 +120,7 @@
 
 
 \title[DSpace]{\fontsize{22}{24}\selectfont DSpace}
-\subtitle[A new way of handling geolocation based information ]{\fontsize{12}{14}\selectfont \textcolor{block}{A new way of handling geolocation based information }}
+\subtitle[A new way of handling geolocation based information ]{\fontsize{12}{14}\selectfont \textcolor{subtitle}{A new way of handling geolocation based information }}
 \author[iggy \& chrono]{\\[3ex]iggy \& chrono}
 
 \institute[Apollo-NG]{
@@ -163,27 +164,160 @@
 %  Begin Content
 %
 
-\section{Section 1}
-\begin{frame}{A sample slide}{with a subtitle}
+\section{Overview}
 
-A displayed ebola
+\begin{frame}{Question}
+If life were a just computer game with awesome sensory input,\linebreak
+which standard game features would be missing in our interface,\linebreak
+in order to play it well, especially when playing in groups?
+\vspace{2em}
+\pause
+\begin{itemize}[<+->]
+  \item A MiniMap
+  \item Instant group communication
+\end{itemize}
+\end{frame}
 
-\[
-  \int_{-\infty}^\infty e^{-x^2} \, dx = \sqrt{\pi}
-\]
 
-An itemized list:
+
+\begin{frame}{Basemaps}
+screenshot and explanation for basemaps
+\end{frame}
+
+\begin{frame}{Overlays}
+screenshot and explanation for overlays
+\end{frame}
+
+\begin{frame}{Basic rules}{with a subtitle}
+Increase the likelyhood and efficiency of adding/sharing information by introducing
+a standardized framework like the W3c in 1993.
+ \begin{itemize}
+  \item Federation
+  \item Free to use
+  \item Open Source
+  \item Lose Bindings
+  \item Modular Extensions
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Overlay ideas}{}
+ \begin{itemize}
+  \item Urban Management
+   \begin{itemize}
+    \item Emergency Response Management (First Responder Setup)
+    \item Hitchhiking (linking drivers/hikers in a sector - hitchwiki.org)
+    \item Real-Time public transportation information
+    \item Real-Time risk distribution
+   \end{itemize}
+  \item Resource Management
+   \begin{itemize}
+    \item Food Mapping/Sharing (mundraub/foodshare.org)
+    \item Dumpster Diving (trashwiki.org)
+    \item Fleet Management
+    \item Open Access Mapping (openwifimap.net)
+   \end{itemize}
+  \item Organizing Events
+   \begin{itemize}
+    \item Public congress/camp Overlay for visitors
+    \item Private engel Overlays for orga
+   \end{itemize}
+
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Even more Overlay ideas}{}
+ \vspace{1em}
+ \begin{itemize}
+  \item Realtime Semantic Mapping ⇒ Heat mapping twitter hashtags (i.e. heatmap \#earthquake to find current EQ reports and positions)
+  \item Private group overlays for the area of activity (i.e. MuCCC)
+  \item Drone GCS Interfacing ⇒ Localization and interactive Mission/WayPoint Management
+  \item Entertainment ⇒ Geocaching, AR-MMORPGs, AR-MMO-Strategy-Games
+  \item Open Network Access ⇒ Mapping Access Points (http://openwifimap.net)-http://map.pberg.freifunk.net/ + ham-radio repeater information
+  \item ADS-B Airplane Mapping Overlay
+  \item Use your imagination
+ \end{itemize}
+\end{frame}
+
+
+\section{Infrastructure}
+
+\begin{frame}{Infrastructure}
+What do we need to get somewhere?
+\end{frame}
+
+\subsection{Basemaps}
+
+\begin{frame}{Map Forgery}
 
 \begin{itemize}
-  \item itemized item 1
-  \item itemized item 2
-  \item itemized item 3
+  \item TileMill
+  \item Import OpenStreepmap data
+  \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo
+  \item DLR SRTM X-Band SAR 25m Topo
+  \item TerraSAR-X/TanDEM-X (Future)
 \end{itemize}
 
-\begin{theorem}
-  In a right triangle, the square of hypotenuse equals
-  the sum of squares of two other sides.
-\end{theorem}
+\end{frame}
+
+\begin{frame}{Map Delivery}
+
+\begin{itemize}
+  \item TileStream
+\end{itemize}
+
+\end{frame}
+
+
+
+
+\subsection{Overlays}
+
+\begin{frame}{Read-Only}
+\begin{itemize}
+  \item Simple HTTP GeoJSON Feed
+  \item SpaceAPI
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Read-Write}
+\begin{itemize}
+  \item remotestorage.io
+\end{itemize}
+\end{frame}
+
+
+
+
+\section{DSpace Client}
+\subsection{Overview}
+
+
+\begin{frame}{Javascript Dependencies}{}
+
+  \begin{itemize}
+    \item Ender
+    \item Underscore
+    \item Backbone
+    \item Bean
+    \item Bonzo
+    \item DOMReady
+    \item RequireJS
+    \item Qwery
+    \item Morpheus
+    \item Reqwest
+  \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Build Dependencies}{}
+
+  \begin{itemize}
+    \item Almond (AMD)
+    \item Handlebars
+    \item CSSO
+  \end{itemize}
 
 \end{frame}
 
@@ -211,8 +345,8 @@ An itemized list:
     // A comment
     int main(void)
     {
-    printf("Hello World\n");
-    return 0;
+      printf("Hello World\n");
+      return 0;
     }
 \end{lstlisting}
 \end{block}

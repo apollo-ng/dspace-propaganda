@@ -1,23 +1,56 @@
-\beamer@endinputifotherversion {3.24pt}
+\beamer@endinputifotherversion {3.20pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\sectionentry {1}{Section 1}{1}{Section 1}{0}}
+\headcommand {\sectionentry {1}{Overview}{1}{Overview}{0}}
 \headcommand {\beamer@sectionpages {1}{0}}
 \headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\slideentry {1}{0}{3}{1/1}{}{0}}
-\headcommand {\beamer@framepages {1}{1}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Uncovering Blockwise}}\headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\slideentry {1}{1}{1}{2/2}{Uncovering Blockwise}{0}}
-\headcommand {\beamer@framepages {2}{2}}
-\headcommand {\sectionentry {2}{Sec 2}{3}{Sec 2}{0}}
-\headcommand {\beamer@sectionpages {1}{2}}
-\headcommand {\beamer@subsectionpages {2}{2}}
-\headcommand {\slideentry {2}{0}{2}{3/4}{}{0}}
-\headcommand {\beamer@framepages {3}{4}}
-\headcommand {\beamer@partpages {1}{4}}
-\headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\beamer@sectionpages {3}{4}}
-\headcommand {\beamer@documentpages {4}}
-\headcommand {\def \inserttotalframenumber {3}}
+\headcommand {\slideentry {1}{0}{3}{1/3}{}{0}}
+\headcommand {\beamer@framepages {1}{3}}
+\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{0}{5}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{0}{6}{6/6}{}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{0}{7}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{0}{8}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\sectionentry {2}{Infrastructure}{9}{Infrastructure}{0}}
+\headcommand {\beamer@sectionpages {1}{8}}
+\headcommand {\beamer@subsectionpages {1}{8}}
+\headcommand {\slideentry {2}{0}{9}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{Basemaps}}\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\slideentry {2}{1}{1}{10/10}{Basemaps}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {2}{1}{2}{11/11}{Basemaps}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{12}{Overlays}}\headcommand {\beamer@subsectionpages {10}{11}}
+\headcommand {\slideentry {2}{2}{1}{12/12}{Overlays}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{2}{2}{13/13}{Overlays}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\sectionentry {3}{DSpace Client}{14}{DSpace Client}{0}}
+\headcommand {\beamer@sectionpages {9}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Overview}}\headcommand {\beamer@subsectionpages {14}{13}}
+\headcommand {\slideentry {3}{1}{1}{14/14}{Overview}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {3}{1}{2}{15/15}{Overview}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{16}{Uncovering Blockwise}}\headcommand {\beamer@subsectionpages {14}{15}}
+\headcommand {\slideentry {3}{2}{1}{16/16}{Uncovering Blockwise}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\sectionentry {4}{Sec 2}{17}{Sec 2}{0}}
+\headcommand {\beamer@sectionpages {14}{16}}
+\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {4}{0}{2}{17/18}{}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\beamer@partpages {1}{18}}
+\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\beamer@sectionpages {17}{18}}
+\headcommand {\beamer@documentpages {18}}
+\headcommand {\def \inserttotalframenumber {15}}

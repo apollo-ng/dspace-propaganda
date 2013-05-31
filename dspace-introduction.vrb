@@ -17,8 +17,8 @@ numbersep=-1.8ex,
     // A comment
     int main(void)
     {
-    printf("Hello World\n");
-    return 0;
+      printf("Hello World\n");
+      return 0;
     }
 \end{lstlisting}
 \end{block}
