@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.11.1)  1 JUN 2013 00:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.11.1)  1 JUN 2013 01:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1422,80 +1422,86 @@ Package pdftex.def Info: background.png used on input line 402.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [17
 
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 406--406
+] <tilestream_ui.png, id=248, 903.375pt x 608.2725pt>
+File: tilestream_ui.png Graphic file (type png)
+
+<use tilestream_ui.png>
+Package pdftex.def Info: tilestream_ui.png used on input line 408.
+(pdftex.def)             Requested size: 271.01459pt x 182.48315pt.
+
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 408--408
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 406.
+Package pdftex.def Info: background.png used on input line 408.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [18
 
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 415--415
+ <./tilestream_ui.png>]
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 417--417
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 415.
+Package pdftex.def Info: background.png used on input line 417.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [19
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 422--422
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 424--424
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 422.
+Package pdftex.def Info: background.png used on input line 424.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [20
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 432--432
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 434--434
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 432.
+Package pdftex.def Info: background.png used on input line 434.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [21
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 442--442
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 444--444
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 442.
+Package pdftex.def Info: background.png used on input line 444.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [22
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 447--447
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 449--449
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 447.
+Package pdftex.def Info: background.png used on input line 449.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [23
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 455--455
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 457--457
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 455.
+Package pdftex.def Info: background.png used on input line 457.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [24
 
@@ -1503,13 +1509,13 @@ Package pdftex.def Info: background.png used on input line 455.
 \openout4 = `dspace-introduction.vrb'.
 
  (./dspace-introduction.vrb)
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 491--491
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 493--493
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 491.
+Package pdftex.def Info: background.png used on input line 493.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [25
 
@@ -1517,13 +1523,13 @@ Package pdftex.def Info: background.png used on input line 491.
 \openout4 = `dspace-introduction.vrb'.
 
  (./dspace-introduction.vrb)
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 528--528
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 530--530
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 528.
+Package pdftex.def Info: background.png used on input line 530.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [26
 
@@ -1544,79 +1550,79 @@ Missing character: There is no   in font txtt!
 Missing character: There is no Â in font txtt!
 Missing character: There is no   in font txtt!
 )
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 558--558
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 560--560
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 558.
+Package pdftex.def Info: background.png used on input line 560.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [27
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 566--566
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 568--568
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 566.
+Package pdftex.def Info: background.png used on input line 568.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [28
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 571--571
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 573--573
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 571.
+Package pdftex.def Info: background.png used on input line 573.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [29
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 577--577
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 579--579
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 577.
+Package pdftex.def Info: background.png used on input line 579.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [30
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 583--583
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 585--585
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 583.
+Package pdftex.def Info: background.png used on input line 585.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [31
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 588--588
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 590--590
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 588.
+Package pdftex.def Info: background.png used on input line 590.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [32
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 594--594
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 596--596
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 594.
+Package pdftex.def Info: background.png used on input line 596.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [33
 
@@ -1630,20 +1636,20 @@ Package pdftex.def Info: background.png used on input line 594.
 \tf@snm=\write8
 \openout8 = `dspace-introduction.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 597.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 597.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
  (./dspace-introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 597.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 597.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
 Package rerunfilecheck Info: File `dspace-introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 57C6E2A19C203D9CDD5A394F0AFA0102;438.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 597.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
  ) 
 Here is how much of TeX's memory you used:
- 20177 strings out of 495027
- 369905 string characters out of 3181743
+ 20182 strings out of 495027
+ 370009 string characters out of 3181743
  492969 words of memory out of 3000000
- 22766 multiletter control sequences out of 15000+200000
+ 22770 multiletter control sequences out of 15000+200000
  34510 words of font info for 83 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,16n,63p,425b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1651,10 +1657,10 @@ Here is how much of TeX's memory you used:
 ts/type1/public/pxfonts/pxsya.pfb></usr/share/texmf-dist/fonts/type1/public/txf
 onts/txtt.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dspace-introduction.pdf (38 pages, 1003483 bytes).
+Output written on dspace-introduction.pdf (38 pages, 2292582 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
+ 394 PDF objects out of 1000 (max. 8388607)
  322 compressed objects within 4 object streams
  75 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
