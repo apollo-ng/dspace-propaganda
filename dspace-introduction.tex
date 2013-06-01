@@ -332,38 +332,35 @@ TileMill -> TileStream -> DSpace Client <- Directory Server
 \end{frame}
 
 \begin{frame}{What do we have?}
-Before we start to re-invent the wheel, let's have a look at what other
-generous people already have developed and shared with the rest of humankind.
-\pause
-Images of project logos (OSM, remotestorage, NASA, DLR, ...)
+ Before we start to re-invent the wheel, let's have a look at what other
+ generous people already have developed and shared with the rest of humankind.
+\end{frame}
+
+\begin{frame}{What do we have?}
+ \vspace{1em}
+ \begin{center}
+  \includegraphics[scale=0.275]{logos}
+ \end{center}
 \end{frame}
 
 
 \subsection{Basemaps}
 
-\begin{frame}{OSM}
- We love the OSM project and fundamental for DSpace, but:
+\begin{frame}{Why not use OpenStreetMap Map-Servers?}
+ {\small We love OSM, it's the fundament of DSpace-Basemaps, but: }
+ \linebreak
  \begin{columns}
   \column{.5\textwidth}
-    {\small Not everything is in OSM:
-      \begin{itemize}
-       \item Topo
-       \item Aerial
-      \end{itemize}
-    }
-    \includegraphics[scale=0.169]{map_render_osm}
+   {\small Not everything is in OSM:\vspace{1em}}
+   \includegraphics[scale=0.169]{map_render_osm}
+   \linebreak
+   {\small Topography, Aerial Imagery}
   \column{.5\textwidth}
-    {\small Not everything belongs in OSM
-      \begin{itemize}
-       \item Tracking
-       \item Personal/Private/Group relad POIs
-      \end{itemize}
-    }
-    \includegraphics[scale=0.169]{map_render_dspace}
+   {\small Not everything belongs in OSM:\vspace{1em}}
+   \includegraphics[scale=0.169]{map_render_dspace}
+   \linebreak
+   {\small Tracking, Personal/Private POIs}
  \end{columns}
--> openSTREETMap
-%    user collects data -> OSM -> OSM team filters/manages additions -> OSM Updates releases
-%    -> OSM Dump -> PostGIS -> TileMill + SRTM Topo Data -> TileStream -> user receives/updates data
 \end{frame}
 
 \setbeamertemplate{blocks}[rounded]

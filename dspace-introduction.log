@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.11.1)  1 JUN 2013 09:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.3.11)  1 JUN 2013 16:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -9,10 +9,10 @@ Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, uk
 english, usenglishmax, loaded.
 (/usr/share/texmf-site/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasercs.sty
-Package: beamerbasercs 2012/06/01 (rcs-revision 352157baec3a)
+Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
 )
-Document Class: beamer 2011/09/12 development version 3.20 A class for typesett
-ing presentations (rcs-revision 70f9d8411e54)
+Document Class: beamer 2012/10/15 development version 3.24 A class for typesett
+ing presentations (rcs-revision 24853e6b98cf)
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasemodes.sty
 Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
 \beamer@tempbox=\box26
@@ -433,7 +433,7 @@ Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasefont.sty
-Package: beamerbasefont 2012/05/10  (rcs-revision a0b4f9f91ee9)
+Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
@@ -460,7 +460,7 @@ Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseoverlay.sty
-Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
@@ -469,7 +469,7 @@ Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasesection.sty
-Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
+Package: beamerbasesection 2012/11/11  (rcs-revision 0056eef6f17f)
 \c@lecture=\count128
 \c@part=\count129
 \c@section=\count130
@@ -477,7 +477,7 @@ Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
 \c@subsubsection=\count132
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframe.sty
-Package: beamerbaseframe 2012/05/31  (rcs-revision 5fc3b3dbfeba)
+Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
@@ -490,22 +490,23 @@ Package: beamerbaseframe 2012/05/31  (rcs-revision 5fc3b3dbfeba)
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks24
+\framewidth=\dimen165
 \c@framenumber=\count136
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2011/09/12  (rcs-revision 70f9d8411e54)
+Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
-\beamer@autobreaklastheight=\dimen165
+\beamer@autobreaklastheight=\dimen166
 \beamer@frametitletoks=\toks25
 \beamer@framesubtitletoks=\toks26
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframecomponents.sty
-Package: beamerbaseframecomponents 2012/03/07  (rcs-revision 9f094699ce15)
+Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
 \beamer@footins=\box44
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasecolor.sty
@@ -516,7 +517,7 @@ Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@frameboxcopy=\box45
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetoc.sty
-Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
@@ -532,15 +533,15 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen166
-\bmb@dima=\dimen167
-\bmb@dimb=\dimen168
-\bmb@prevheight=\dimen169
+\bmb@temp=\dimen167
+\bmb@dima=\dimen168
+\bmb@dimb=\dimen169
+\bmb@prevheight=\dimen170
 )
-\beamer@blockheadheight=\dimen170
+\beamer@blockheadheight=\dimen171
 ))
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2012/05/25  (rcs-revision 5ff5e8ed7c0e)
+Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
 
 (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
@@ -553,7 +554,7 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenavigation.sty
 Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen171
+\beamer@section@min@dim=\dimen172
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
@@ -569,11 +570,11 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks29
-\ex@=\dimen172
+\ex@=\dimen173
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen173
+\pmbraise@=\dimen174
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -590,7 +591,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen174
+\big@size=\dimen175
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count145
@@ -603,12 +604,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count150
 \maxfields@=\count151
 \andhelp@=\toks31
-\eqnshift@=\dimen175
-\alignsep@=\dimen176
-\tagshift@=\dimen177
-\tagwidth@=\dimen178
-\totwidth@=\dimen179
-\lineht@=\dimen180
+\eqnshift@=\dimen176
+\alignsep@=\dimen177
+\tagshift@=\dimen178
+\tagwidth@=\dimen179
+\totwidth@=\dimen180
+\lineht@=\dimen181
 \@envbody=\toks32
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -648,12 +649,12 @@ Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/inner/beamerinnerthemedefau
 lt.sty
 Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen181
-\beamer@dimb=\dimen182
+\beamer@dima=\dimen182
+\beamer@dimb=\dimen183
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemedefau
 lt.sty
-Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerouterthemedefault 2012/10/02  (rcs-revision 5ed0f4010e8a)
 ))) (/usr/share/texmf-site/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-site/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
@@ -667,8 +668,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen183
-\pgf@nodesepend=\dimen184
+\pgf@nodesepstart=\dimen184
+\pgf@nodesepend=\dimen185
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -678,8 +679,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen185
-\pgffor@skip=\dimen186
+\pgffor@iter=\dimen186
+\pgffor@skip=\dimen187
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
@@ -690,14 +691,14 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 x
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count153
-\pgfplotmarksize=\dimen187
+\pgfplotmarksize=\dimen188
 )
-\tikz@lastx=\dimen188
-\tikz@lasty=\dimen189
-\tikz@lastxsaved=\dimen190
-\tikz@lastysaved=\dimen191
-\tikzleveldistance=\dimen192
-\tikzsiblingdistance=\dimen193
+\tikz@lastx=\dimen189
+\tikz@lasty=\dimen190
+\tikz@lastxsaved=\dimen191
+\tikz@lastysaved=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
 \tikz@figbox=\box54
 \tikz@tempbox=\box55
 \tikztreelevel=\count154
@@ -720,14 +721,14 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 \lst@gtempboxa=\box56
 \lst@token=\toks42
 \lst@length=\count163
-\lst@currlwidth=\dimen194
+\lst@currlwidth=\dimen195
 \lst@column=\count164
 \lst@pos=\count165
-\lst@lostspace=\dimen195
-\lst@width=\dimen196
+\lst@lostspace=\dimen196
+\lst@width=\dimen197
 \lst@newlines=\count166
 \lst@lineno=\count167
-\lst@maxwidth=\dimen197
+\lst@maxwidth=\dimen198
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
@@ -837,7 +838,7 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 LaTeX Info: Redefining \textlatin on input line 82.
 \babel@savecnt=\count170
-\U@D=\dimen198
+\U@D=\dimen199
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -858,9 +859,9 @@ Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
 \progressbar@tmpcounta=\count171
 \progressbar@tmpcountb=\count172
-\progressbar@pbht=\dimen199
-\progressbar@pbwd=\dimen200
-\progressbar@tmpdim=\dimen201
+\progressbar@pbht=\dimen200
+\progressbar@pbwd=\dimen201
+\progressbar@tmpdim=\dimen202
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -954,13 +955,13 @@ File: ot1pxss.fd 2000/12/14 v1.0
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count173
-\scratchdimen=\dimen202
+\scratchdimen=\dimen203
 \scratchbox=\box58
 \nofMPsegments=\count174
 \nofMParguments=\count175
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count176
-\MPscratchDim=\dimen203
+\MPscratchDim=\dimen204
 \MPnumerator=\count177
 \makeMPintoPDFobject=\count178
 \everyMPtoPDFconversion=\toks44
@@ -1322,48 +1323,67 @@ Package pdftex.def Info: background.png used on input line 332.
  [11
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 339--339
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 337--337
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 339.
+Package pdftex.def Info: background.png used on input line 337.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [12
 
-]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 339--339
+] <logos.png, id=213, 903.375pt x 655.44875pt>
+File: logos.png Graphic file (type png)
+
+<use logos.png>
+Package pdftex.def Info: logos.png used on input line 344.
+(pdftex.def)             Requested size: 248.422pt x 180.24396pt.
+
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 344--344
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 339.
+Package pdftex.def Info: background.png used on input line 344.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [13
 
-] <map_render_osm.png, id=219, 903.375pt x 654.445pt>
-File: map_render_osm.png Graphic file (type png)
+ <./logos.png>]
 
-<use map_render_osm.png>
-Package pdftex.def Info: map_render_osm.png used on input line 367.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<map_render_osm.png, id=221, 903.375pt x 654.445pt>
+File: map_render_osm.png Graphic file (type png)
+ <use map_render_osm.png>
+Package pdftex.def Info: map_render_osm.png used on input line 364.
 (pdftex.def)             Requested size: 152.67574pt x 110.60509pt.
 
-<map_render_dspace.png, id=220, 903.375pt x 655.44875pt>
+<map_render_dspace.png, id=222, 903.375pt x 655.44875pt>
 File: map_render_dspace.png Graphic file (type png)
 
 <use map_render_dspace.png>
-Package pdftex.def Info: map_render_dspace.png used on input line 367.
+Package pdftex.def Info: map_render_dspace.png used on input line 364.
 (pdftex.def)             Requested size: 152.67574pt x 110.77472pt.
 
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 367--367
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 364--364
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 367.
+Package pdftex.def Info: background.png used on input line 364.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [14
 
@@ -1387,118 +1407,118 @@ LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 23.
 (/usr/share/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
 File: ot1pxtt.fd 2000/12/14 v1.0
 ))
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 399--399
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 396--396
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 399.
+Package pdftex.def Info: background.png used on input line 396.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [15
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 403--403
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 400--400
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 403.
+Package pdftex.def Info: background.png used on input line 400.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [16
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 409--409
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 406--406
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 409.
+Package pdftex.def Info: background.png used on input line 406.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [17
 
-] <tilestream_ui.png, id=252, 903.375pt x 608.2725pt>
+] <tilestream_ui.png, id=254, 903.375pt x 608.2725pt>
 File: tilestream_ui.png Graphic file (type png)
 
 <use tilestream_ui.png>
-Package pdftex.def Info: tilestream_ui.png used on input line 415.
+Package pdftex.def Info: tilestream_ui.png used on input line 412.
 (pdftex.def)             Requested size: 271.01459pt x 182.48315pt.
 
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 415--415
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 412--412
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 415.
+Package pdftex.def Info: background.png used on input line 412.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [18
 
  <./tilestream_ui.png>]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 424--424
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 421--421
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 424.
+Package pdftex.def Info: background.png used on input line 421.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [19
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 431--431
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 428--428
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 431.
+Package pdftex.def Info: background.png used on input line 428.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [20
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 441--441
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 438--438
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 441.
+Package pdftex.def Info: background.png used on input line 438.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [21
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 451--451
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 448--448
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 451.
+Package pdftex.def Info: background.png used on input line 448.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [22
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 456--456
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 453--453
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 456.
+Package pdftex.def Info: background.png used on input line 453.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [23
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 464--464
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 461--461
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 464.
+Package pdftex.def Info: background.png used on input line 461.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [24
 
@@ -1506,13 +1526,13 @@ Package pdftex.def Info: background.png used on input line 464.
 \openout4 = `dspace-introduction.vrb'.
 
  (./dspace-introduction.vrb)
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 500--500
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 497--497
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 500.
+Package pdftex.def Info: background.png used on input line 497.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [25
 
@@ -1520,13 +1540,13 @@ Package pdftex.def Info: background.png used on input line 500.
 \openout4 = `dspace-introduction.vrb'.
 
  (./dspace-introduction.vrb)
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 537--537
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 534--534
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 537.
+Package pdftex.def Info: background.png used on input line 534.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [26
 
@@ -1547,79 +1567,79 @@ Missing character: There is no   in font txtt!
 Missing character: There is no Â in font txtt!
 Missing character: There is no   in font txtt!
 )
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 567--567
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 564--564
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 567.
+Package pdftex.def Info: background.png used on input line 564.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [27
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 575--575
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 572--572
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 575.
+Package pdftex.def Info: background.png used on input line 572.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [28
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 580--580
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 577--577
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 580.
+Package pdftex.def Info: background.png used on input line 577.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [29
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 586--586
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 583--583
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 586.
+Package pdftex.def Info: background.png used on input line 583.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [30
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 592--592
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 589--589
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 592.
+Package pdftex.def Info: background.png used on input line 589.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [31
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 597--597
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 594--594
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 597.
+Package pdftex.def Info: background.png used on input line 594.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [32
 
 ]
-Overfull \hbox (4.00319pt too wide) in paragraph at lines 603--603
+Overfull \hbox (4.00319pt too wide) in paragraph at lines 600--600
 [][][][]  
  []
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png used on input line 603.
+Package pdftex.def Info: background.png used on input line 600.
 (pdftex.def)             Requested size: 364.20352pt x 273.14088pt.
  [33
 
@@ -1633,20 +1653,20 @@ Package pdftex.def Info: background.png used on input line 603.
 \tf@snm=\write8
 \openout8 = `dspace-introduction.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
  (./dspace-introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 603.
 Package rerunfilecheck Info: File `dspace-introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 57C6E2A19C203D9CDD5A394F0AFA0102;438.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 603.
  ) 
 Here is how much of TeX's memory you used:
- 20177 strings out of 495027
- 370154 string characters out of 3181743
- 493453 words of memory out of 3000000
- 22778 multiletter control sequences out of 15000+200000
+ 20195 strings out of 495027
+ 370578 string characters out of 3181743
+ 493803 words of memory out of 3000000
+ 22796 multiletter control sequences out of 15000+200000
  34510 words of font info for 83 fonts, out of 3000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,16n,63p,425b,1425s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1654,10 +1674,10 @@ Here is how much of TeX's memory you used:
 ts/type1/public/pxfonts/pxsya.pfb></usr/share/texmf-dist/fonts/type1/public/txf
 onts/txtt.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on dspace-introduction.pdf (38 pages, 4157987 bytes).
+Output written on dspace-introduction.pdf (38 pages, 4310432 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
+ 400 PDF objects out of 1000 (max. 8388607)
  322 compressed objects within 4 object streams
  75 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.20pt}
+\beamer@endinputifotherversion {3.24pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
@@ -38,8 +38,10 @@
 \headcommand {\beamer@subsectionpages {2}{10}}
 \headcommand {\slideentry {3}{0}{15}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {3}{0}{16}{12/13}{}{0}}
-\headcommand {\beamer@framepages {12}{13}}
+\headcommand {\slideentry {3}{0}{16}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {3}{0}{17}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Basemaps}}\headcommand {\beamer@subsectionpages {11}{13}}
 \headcommand {\slideentry {3}{1}{1}{14/14}{Basemaps}{0}}
 \headcommand {\beamer@framepages {14}{14}}
@@ -91,4 +93,4 @@
 \headcommand {\beamer@subsectionpages {28}{33}}
 \headcommand {\beamer@sectionpages {28}{33}}
 \headcommand {\beamer@documentpages {33}}
-\headcommand {\def \inserttotalframenumber {32}}
+\headcommand {\def \inserttotalframenumber {33}}

@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.20pt}
+\beamer@endinputifotherversion {3.24pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Who we are?}{1}{0}{1}
 \beamer@sectionintoc {2}{What do we want?}{2}{0}{2}
