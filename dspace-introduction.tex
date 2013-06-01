@@ -5,7 +5,6 @@
 %  Init Apollo-NG Beamer Slides
 %
 
-
 \documentclass{beamer}
 \usepackage{tikz}
 \usepackage{xcolor}
@@ -235,13 +234,14 @@ Image Street - DSpaced
 \begin{frame}{Basemaps II}
  \begin{columns}
   \column{.5\textwidth}
-   \includegraphics[scale=0.5]{basemap_tile}
+   \includegraphics[scale=0.5]{basemap_layers}
   \column{.5\textwidth}
    \begin{itemize}
-    \item Static / longterm
-    \item general interest
-    \item only one is visible at a time
-    \item composition depends on region/application
+    \item Static / Longterm data retention & validity
+    \item General interest
+    \item Only one map is visible at a time
+    \item Composition depends on region/application
+    \item Updates are resource intensive (Rendering)
    \end{itemize}
  \end{columns}
 \end{frame}
@@ -251,12 +251,13 @@ Image Street - DSpaced
   \column{.5\textwidth}
    \begin{itemize}
     \item POIs
-    \item location tracking
-    \item waypoints on a route
+    \item Location tracking
+    \item Waypoints on a route
     \item (Basemap)
+    \item Very fast \& cheap updates (local browser renders)
    \end{itemize}
   \column{.5\textwidth}
-   \includegraphics[scale=0.5]{overlay_bar}
+   \includegraphics[scale=0.5]{basemap_layers}
  \end{columns}
 \end{frame}
 
@@ -271,7 +272,7 @@ Image Street - DSpaced
     \item can be user-generated and -updated
    \end{itemize}
   \column{.5\textwidth}
-   \includegraphics[scale=0.5]{overlay_foo}
+   \includegraphics[scale=0.5]{basemap_layers}
  \end{columns}
 \end{frame}
 
