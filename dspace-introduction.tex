@@ -340,24 +340,30 @@ Images of project logos (OSM, remotestorage, NASA, DLR, ...)
 
 \subsection{Basemaps}
 
-
 \begin{frame}{OSM}
- OSM is great, and fundamental for DSpace, but:
+ We love the OSM project and fundamental for DSpace, but:
  \begin{columns}
   \column{.5\textwidth}
-    not everything is in OSM (Topo, arial)
-    Image OSM Rendered Map
+    {\small Not everything is in OSM:
+      \begin{itemize}
+       \item Topo
+       \item Aerial
+      \end{itemize}
+    }
+    \includegraphics[scale=0.169]{map_render_osm}
   \column{.5\textwidth}
-    not everything belongs in OSM (tracking, personal POIs)
-    DSpace self-rendered Map
-
+    {\small Not everything belongs in OSM
+      \begin{itemize}
+       \item Tracking
+       \item Personal/Private/Group relad POIs
+      \end{itemize}
+    }
+    \includegraphics[scale=0.169]{map_render_dspace}
  \end{columns}
 -> openSTREETMap
 %    user collects data -> OSM -> OSM team filters/manages additions -> OSM Updates releases
 %    -> OSM Dump -> PostGIS -> TileMill + SRTM Topo Data -> TileStream -> user receives/updates data
-
 \end{frame}
-
 
 \setbeamertemplate{blocks}[rounded]
 \setbeamercolor{block body}{bg=block}
