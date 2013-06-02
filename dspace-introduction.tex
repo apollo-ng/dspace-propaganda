@@ -337,9 +337,9 @@ TileMill -> TileStream -> DSpace Client <- Directory Server
 \end{frame}
 
 \begin{frame}{What do we have?}
- \vspace{1em}
+ \vspace{0.8em}
  \begin{center}
-  \includegraphics[scale=0.275]{logos}
+  \includegraphics[scale=0.281]{logos}
  \end{center}
 \end{frame}
 
@@ -399,10 +399,32 @@ TileMill -> TileStream -> DSpace Client <- Directory Server
 Include picture of Map Forge in action
 \end{frame}
 
-\begin{frame}{Map Delivery}
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]{Map Delivery}
+ TileStream is also written in NodeJS and very easy to set up:
+ \linebreak
  \begin{itemize}
-  \item NodeJS + TileStream
+  \item Copy maps from TileMill to your TileStream map folder
+  \item Start TileStream*
  \end{itemize}
+\Fontvi
+\lstset{language=C++,
+  basicstyle=\color{black}\ttfamily,
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  commentstyle=\color{green}\ttfamily,
+  morecomment=[l][\color{magenta}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+  $ cp /tmp/my_map_from_tilemill.mbtiles /home/tilestream/maps/
+  $ ./index.js --host my.fully.qualified.domainname --tiles=/home/tilestream/maps/
+  Started [Server Tile].
+  Started [Server Core:8888].
+\end{lstlisting}
+\end{block}
+\small{*Obviously, this should be running as a service :)}
 \end{frame}
 
 \begin{frame}{Live DEMO of the TileStream WebUI}
