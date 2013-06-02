@@ -193,8 +193,10 @@ Image Street - DSpaced
 \section{Who we are?}
 
 \begin{frame}{Who we are?}
- \vspace{1em}
- \includegraphics[scale=0.4]{images/dspace-hackers}
+ \vspace{0.8em}
+ \begin{center}
+  \includegraphics[scale=0.4]{images/dspace-hackers}
+ \end{center}
 \end{frame}
 
 \section{What do we want?}
@@ -203,7 +205,7 @@ Image Street - DSpaced
  Staging our wants
 \end{frame}
 
-\begin{frame}{Something like a standard}{with a subtitle}
+\begin{frame}{Something like a standard}
  Increase the likelyhood and efficiency of adding/sharing information by introducing
  a standardized framework like the W3c in 1993.
  \begin{itemize}
@@ -215,28 +217,33 @@ Image Street - DSpaced
  \end{itemize}
 \end{frame}
 
-\begin{frame}{Basemaps}
+\begin{frame}{Open Basemaps}
  \begin{columns}
   \column{.4\textwidth}
+   \linebreak
+   \linebreak
    \includegraphics[scale=0.5]{images/basemap_layers}
   \column{.6\textwidth}
+   Basemap Tile Assembly
+   \vspace{0.6em}
    \begin{itemize}
-    \itemsep 1em
+    \itemsep 0.65em
     \item Roads (OSM)
     \item Land Usage (OSM)
     \item Boundaries (OSM)
     \item Hydrography (OSM/External)
-    \item Topography (NASA/DLR)
+    \item Topography (NASA/DLR SRTM)
     \item Land Imagery (NASA Blue Marble)
    \end{itemize}
+   \linebreak
  \end{columns}
 \end{frame}
 
-\begin{frame}{Basemaps II}
+\begin{frame}{Basemap Definitions}
  \begin{columns}
-  \column{.5\textwidth}
+  \column{.4\textwidth}
    \includegraphics[scale=0.5]{images/basemap_layers}
-  \column{.5\textwidth}
+  \column{.6\textwidth}
    \begin{itemize}
     \item Static / Longterm data retention & validity
     \item General interest
@@ -249,21 +256,21 @@ Image Street - DSpaced
 
 \begin{frame}{Overlays}
  \begin{columns}
-  \column{.5\textwidth}
+  \column{.6\textwidth}
    \begin{itemize}
     \item POIs
     \item Location tracking
     \item Waypoints on a route
     \item (Basemap)
    \end{itemize}
-  \column{.5\textwidth}
+  \column{.4\textwidth}
    \includegraphics[scale=0.5]{images/basemap_layers}
  \end{columns}
 \end{frame}
 
 \begin{frame}{Overlays}
  \begin{columns}
-  \column{.5\textwidth}
+  \column{.6\textwidth}
    \begin{itemize}
     \item collections of things at locations
     \item public or private
@@ -272,7 +279,7 @@ Image Street - DSpaced
     \item can be user-generated and -updated
     \item Very fast \& cheap updates (local browser renders)
    \end{itemize}
-  \column{.5\textwidth}
+  \column{.4\textwidth}
    \includegraphics[scale=0.5]{images/basemap_layers}
  \end{columns}
 \end{frame}
@@ -325,7 +332,7 @@ Image Street - DSpaced
 
 \section{What do we have?}
 
-\begin{frame}{What do we need?}
+\begin{frame}{What do we have?}
  Staging our haves
 \end{frame}
 
@@ -335,8 +342,8 @@ Image Street - DSpaced
 \end{frame}
 
 \begin{frame}{What do we have?}
- \vspace{0.8em}
  \begin{center}
+  \vspace{0.8em}
   \includegraphics[scale=0.281]{images/logos}
  \end{center}
 \end{frame}
@@ -375,9 +382,6 @@ Image Street - DSpaced
  \end{itemize}
 \Fontvi
 \lstset{language=C++,
-				numbers=left,
-				numberstyle=\tiny,
-				numbersep=-1.8ex,
                 basicstyle=\color{black}\ttfamily,
                 keywordstyle=\color{blue}\ttfamily,
                 stringstyle=\color{red}\ttfamily,
@@ -386,9 +390,9 @@ Image Street - DSpaced
 }
 \begin{block}{}
 \begin{lstlisting}
-    imposm -U gisuser -d gis -m \
-    /tmp/osm-bright/imposm-mapping.py --overwrite-cache --read --write --optimize \
-    --deploy-production-tables planet-latest.osm.pbf
+  imposm -U gisuser -d gis -m \
+  /tmp/osm-bright/imposm-mapping.py --overwrite-cache --read --write --optimize \
+  --deploy-production-tables planet-latest.osm.pbf
 \end{lstlisting}
 \end{block}
 \end{frame}
