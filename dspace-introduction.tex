@@ -246,12 +246,12 @@ Image Street - DSpaced
    \includegraphics[scale=0.15]{images/basemap_tile}
   \column{.7\textwidth}
    \begin{itemize}
-    \item Static / Longterm data retention & validity
+    \item Static / Longterm data retention \& validity
     \item General interest
     \item Only one basemap is visible at a time
-    \item Composition depends on region/application
+    \item Composition based on region/application
     \item Updates are resource intensive
-    \item Server based Rendering
+    \item Server based rendering
    \end{itemize}
  \end{columns}
 \end{frame}
@@ -355,19 +355,24 @@ Image Street - DSpaced
 \subsection{Basemaps}
 
 \begin{frame}{Why not use OpenStreetMap Map-Servers?}
- {\small We love OSM, it's the fundament of DSpace-Basemaps, but: }
- \linebreak
+ \vspace{0.8em}
  \begin{columns}
   \column{.5\textwidth}
    {\small Not everything is in OSM:\vspace{1em}}
    \includegraphics[scale=0.169]{images/map_render_osm}
-   \linebreak
-   {\small Topography, Aerial Imagery}
+   \begin{itemize}
+    \item Topography
+    \item Aerial Imagery
+    \item All non-STREETmap data
+   \end{itemize}
   \column{.5\textwidth}
    {\small Not everything belongs in OSM:\vspace{1em}}
    \includegraphics[scale=0.169]{images/map_render_dspace}
-   \linebreak
-   {\small Tracking, Personal/Private POIs}
+   \begin{itemize}
+    \item Tracking
+    \item Personal/Private POIs
+    \item Dynamic/Real-Time data
+   \end{itemize}
  \end{columns}
 \end{frame}
 
