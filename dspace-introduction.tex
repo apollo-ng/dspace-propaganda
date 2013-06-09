@@ -24,6 +24,31 @@
 \setbeamercolor{frametitle}{fg=title}
 \setbeamersize{text margin left=1.75em}
 
+% Provide JSON Syntax Highlighting
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{json}{
+    basicstyle=\normalfont\ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    literate=
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
+
+
 \setbeamertemplate{headline}
 {
   \leavevmode%
@@ -451,41 +476,40 @@ Include picture of Map Forge in action
 \setbeamertemplate{blocks}[rounded]
 \setbeamercolor{block body}{bg=block}
 \begin{frame}[fragile]{Overlays - GeoJSON}
- \begin{itemize}
-
- \end{itemize}
-\Fontvi
-\lstset{language=javascript,
-                basicstyle=\color{black}\ttfamily,
-                keywordstyle=\color{blue}\ttfamily,
-                stringstyle=\color{red}\ttfamily,
-                commentstyle=\color{green}\ttfamily,
-                morecomment=[l][\color{magenta}]{\#}
-}
-\begin{block}{}
-\begin{lstlisting}
-"type": "FeatureCollection",
-  "name": "Pools",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.62876, 48.15471]
-      },
-      "properties": {
-        "type": "Pool",
-        "indoor": "yes",
-        "outdoor": "no",
-        "title": "Cosimabad",
-        "address": "Cosimastr. 5",
-        "zip_code": "80925",
-        "website": "http://www.swm.de/hallenbaeder/cosima-wellenbad.html"
-      }
-    },
-    ...
-\end{lstlisting}
-\end{block}
+ \Fontvi
+ \lstset{language=json,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=-1.8ex,
+  basicstyle=\color{black}\ttfamily,
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  commentstyle=\color{green}\ttfamily,
+  morecomment=[l][\color{magenta}]{\#}
+ }
+ \begin{block}{}
+  \begin{lstlisting}
+    "type": "FeatureCollection",
+      "name": "Pools",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [11.62876, 48.15471]
+          },
+          "properties": {
+            "type": "Pool",
+            "indoor": "yes",
+            "outdoor": "no",
+            "title": "Cosimabad",
+            "address": "Cosimastr. 5",
+            "zip_code": "80925",
+            "website": "http://www.swm.de/hallenbaeder/cosima-wellenbad.html"
+          }
+        },[...]
+  \end{lstlisting}
+ \end{block}
 \end{frame}
 
 
@@ -661,30 +685,30 @@ different setups and simple rewrites.
   \column{.5\textwidth}
    Attributes of a directory entry:
     \begin{itemize}
-    \item url
-    \item type (overlay or basemap)
-    \item topleft, bottomright
-    \item name
-    \item description
-    \item tags
-    \item rank
+    \item Url
+    \item Type (overlay or basemap)
+    \item Topleft, bottomright
+    \item Name
+    \item Description
+    \item Tags
+    \item Rank
     \end{itemize}
  \end{columns}
 \end{frame}
 
 \begin{frame}{Client}
 \begin{itemize}
-\item more overlay functionality
+\item More overlay functionality
     \begin{itemize}
-    \item polygons
-    \item (translated) images
+    \item Polygons
+    \item (Translated) images
     \item 3D
     \end{itemize}
-\item mobile integration
+\item Better mobile integration
     \begin{itemize}
     \item iOS
-    \item android
-    \item glass!
+    \item Android
+    \item Glass!
     \end{itemize}
 \item Overlay browser
 \end{itemize}
