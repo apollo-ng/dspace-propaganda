@@ -348,11 +348,6 @@ Image Street - DSpaced
 \end{frame}
 
 \begin{frame}{What do we have?}
- Before we start to re-invent the wheel, let's have a look at what other
- generous people already have developed and shared with the rest of humankind.
-\end{frame}
-
-\begin{frame}{What do we have?}
  \begin{center}
   \vspace{0.8em}
   \includegraphics[scale=0.281]{images/logos}
@@ -453,39 +448,70 @@ Include picture of Map Forge in action
 
 \subsection{Overlays}
 
-\begin{frame}{Read-Only Overlays}
+\setbeamertemplate{blocks}[rounded]
+\setbeamercolor{block body}{bg=block}
+\begin{frame}[fragile]{Overlays - GeoJSON}
  \begin{itemize}
-  \item Simple HTTP GeoJSON Feed
-  \item SpaceAPI
+
  \end{itemize}
+\Fontvi
+\lstset{language=javascript,
+                basicstyle=\color{black}\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{green}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#}
+}
+\begin{block}{}
+\begin{lstlisting}
+"type": "FeatureCollection",
+  "name": "Pools",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.62876, 48.15471]
+      },
+      "properties": {
+        "type": "Pool",
+        "indoor": "yes",
+        "outdoor": "no",
+        "title": "Cosimabad",
+        "address": "Cosimastr. 5",
+        "zip_code": "80925",
+        "website": "http://www.swm.de/hallenbaeder/cosima-wellenbad.html"
+      }
+    },
+    ...
+\end{lstlisting}
+\end{block}
 \end{frame}
 
 
-\begin{frame}{Read-Write Overlays}
- \begin{itemize}
-  \item remotestorage.io
- \end{itemize}
-\end{frame}
+\begin{frame}{Overlays}
 
-
-\subsection{Navigation}
-
-\begin{frame}{Navigation}
- \begin{itemize}
-  \item Routino
-  \item OpenStreetMap dump as basis (just like TileMill)
- \end{itemize}
+GeoJSON Feed
+    \begin{itemize}
+      \item simple http readonly list
+     \end{itemize}
+SpaceAPI
+      \begin{itemize}
+      \item global list of hackerspaces, with live state info
+     \end{itemize}
+remotestorage.io
+    \begin{itemize}
+      \item unbound private/public data storage
+     \end{itemize}
+Navigation
+      \begin{itemize}
+      \item Routino
+      \item OpenStreetMap dump as basis (just like TileMill)
+     \end{itemize}
 \end{frame}
 
 
 \subsection{DSpace Client}
-
-\begin{frame}{DSpace Client}
- Introduction on the Client
- now we have nice basemaps and sources for overlays
-
- presentation comes together in the client
-\end{frame}
 
 \begin{frame}{Client}
  Technologies:
@@ -621,29 +647,67 @@ different setups and simple rewrites.
 \end{frame}
 
 \begin{frame}{Directory Server}
- Federated searchable ranked, geobounded, tagged list of basemaps and overlay feeds
- ...
+ \vspace{0.8em}
+ \begin{columns}
+  \column{.5\textwidth}
+   Serves a list of basemaps and overlay feeds
+    \begin{itemize}
+    \item Federated
+    \item Searchable
+    \item Ranked
+    \item Geobound
+    \item Tagged
+    \end{itemize}
+  \column{.5\textwidth}
+   Attributes of a directory entry:
+    \begin{itemize}
+    \item url
+    \item type (overlay or basemap)
+    \item topleft, bottomright
+    \item name
+    \item description
+    \item tags
+    \item rank
+    \end{itemize}
+ \end{columns}
 \end{frame}
 
 \begin{frame}{Client}
- more overlay functionality (polygons, 3D, translated images ...)
- mobile integration (ios, android, glass)
- Overlay browser
+\begin{itemize}
+\item more overlay functionality
+    \begin{itemize}
+    \item polygons
+    \item (translated) images
+    \item 3D
+    \end{itemize}
+\item mobile integration
+    \begin{itemize}
+    \item iOS
+    \item android
+    \item glass!
+    \end{itemize}
+\item Overlay browser
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Collaboration}
- People forging and serving basemaps for their area
- People exposing existing geodata as dspace overlay feeds
- People helping with docs, bugs, issues, features (mostly on the client for now)
+People ...
+\begin{itemize}
+\item ... forging and serving basemaps for their area
+\item ... exposing existing geodata as dspace overlay feeds
+\item ... helping with docs, bugs, issues, features (mostly on the client for now)
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Utopia}
- Augmented Reality glasses (contact lens FTW!)
- ...
-\end{frame}
+%\begin{frame}{Utopia}
+% Augmented Reality glasses (contact lens FTW!)
+% ...
+%\end{frame}
 
 \begin{frame}{THEEND}
  Thanks for your attention.
+
+ [QR + URL]
 
  Discussion
 \end{frame}
