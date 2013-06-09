@@ -320,43 +320,55 @@ Image Street - DSpaced
  \end{columns}
 \end{frame}
 
-\begin{frame}{Overlay ideas}{}
+\begin{frame}{Basic Overlay applications}{}
+   \begin{itemize}
+    \item Where are my friends?
+    \begin{itemize}
+    \item Shared list of realtime geolocations
+   \end{itemize}
+    \item Where are bars my friends like?
+    \begin{itemize}
+    \item Shared list of static geolocations
+   \end{itemize}
+    \item How far is it and how do I get there?
+    \begin{itemize}
+    \item Navigation
+   \end{itemize}
+    \item >Wheresss myyy hoooome? (show display to taxi driver)
+    \begin{itemize}
+    \item Private list
+   \end{itemize}
+   \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Advaced Overlay applications}{}
  \begin{itemize}
   \item Urban Management
    \begin{itemize}
     \item Emergency Response Management (First Responder Setup)
     \item Hitchhiking (linking drivers/hikers in a sector - hitchwiki.org)
     \item Real-Time public transportation information
-    \item Real-Time risk distribution
+    \item Realtime Semantic Mapping
    \end{itemize}
   \item Resource Management
    \begin{itemize}
     \item Food Mapping/Sharing (mundraub/foodshare.org)
-    \item Dumpster Diving (trashwiki.org)
     \item Fleet Management
-    \item Open Access Mapping (openwifimap.net)
    \end{itemize}
   \item Organizing Events
    \begin{itemize}
     \item Public congress/camp Overlay for visitors
     \item Private engel Overlays for orga
    \end{itemize}
-
+  \item Entertainment
+   \begin{itemize}
+    \item Geocaching
+    \item AR-MMORPGs, AR-MMO-Strategy-Games
+   \end{itemize}
  \end{itemize}
 \end{frame}
 
-\begin{frame}{Even more Overlay ideas}{}
- \vspace{1em}
- \begin{itemize}
-  \item Realtime Semantic Mapping ⇒ Heat mapping twitter hashtags (i.e. heatmap \#earthquake to find current EQ reports and positions)
-  \item Private group overlays for the area of activity (i.e. MuCCC)
-  \item Drone GCS Interfacing ⇒ Localization and interactive Mission/WayPoint Management
-  \item Entertainment ⇒ Geocaching, AR-MMORPGs, AR-MMO-Strategy-Games
-  \item Open Network Access ⇒ Mapping Access Points (http://openwifimap.net)-http://map.pberg.freifunk.net/ + ham-radio repeater information
-  \item ADS-B Airplane Mapping Overlay
-  \item Use your imagination
- \end{itemize}
-\end{frame}
 
 \begin{frame}{Architecture Overview}
  \begin{center}
@@ -413,7 +425,7 @@ Image Street - DSpaced
   \item PostgreSQL + PostGIS + imposm
   \item OpenStreepMap data
   \item NASA/CGIAR SRTM SIR-C-Band V41 90m Topo data
-  \item DLR SRTM X-Band SAR 25m Topo data (+/- 60° coverage)
+  \item DLR SRTM X-Band SAR 25m Topo data (+/- 60\° coverage)
   \item TerraSAR-X/TanDEM-X data (Future)
  \end{itemize}
 \Fontvi
@@ -489,6 +501,7 @@ Include picture of Map Forge in action
  }
  \begin{block}{}
   \begin{lstlisting}
+  {
     "type": "FeatureCollection",
       "name": "Pools",
       "features": [
@@ -507,7 +520,8 @@ Include picture of Map Forge in action
             "zip_code": "80925",
             "website": "http://www.swm.de/hallenbaeder/cosima-wellenbad.html"
           }
-        },[...]
+        },
+        [...]
   \end{lstlisting}
  \end{block}
 \end{frame}
@@ -517,15 +531,15 @@ Include picture of Map Forge in action
 
 GeoJSON Feed
     \begin{itemize}
-      \item simple http readonly list
+      \item Simple http readonly list
      \end{itemize}
 SpaceAPI
       \begin{itemize}
-      \item global list of hackerspaces, with live state info
+      \item Global list of hackerspaces, with live state info
      \end{itemize}
 remotestorage.io
     \begin{itemize}
-      \item unbound private/public data storage
+      \item Unbound private/public data storage
      \end{itemize}
 Navigation
       \begin{itemize}
@@ -685,7 +699,7 @@ different setups and simple rewrites.
   \column{.5\textwidth}
    Attributes of a directory entry:
     \begin{itemize}
-    \item Url
+    \item url
     \item Type (overlay or basemap)
     \item Topleft, bottomright
     \item Name
@@ -711,6 +725,7 @@ different setups and simple rewrites.
     \item Glass!
     \end{itemize}
 \item Overlay browser
+\item Encryption
 \end{itemize}
 \end{frame}
 
@@ -719,7 +734,7 @@ People ...
 \begin{itemize}
 \item ... forging and serving basemaps for their area
 \item ... exposing existing geodata as dspace overlay feeds
-\item ... helping with docs, bugs, issues, features (mostly on the client for now)
+\item ... helping with docs, bugs, issues, features
 \end{itemize}
 \end{frame}
 
@@ -728,12 +743,12 @@ People ...
 % ...
 %\end{frame}
 
-\begin{frame}{THEEND}
- Thanks for your attention.
+\begin{frame}{The End}
+ Thanks for your attention. May the daemon be with you.
 
  [QR + URL]
 
- Discussion
+ Questions?
 \end{frame}
 
 
