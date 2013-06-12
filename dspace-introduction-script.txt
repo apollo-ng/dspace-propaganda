@@ -55,46 +55,137 @@ starting with the fundamental Basemap:
 
 [Next] -> Basemaps
 
+The basemap is served as tiles of prerendered bitmaps, which are composed
+from several layers
 ...
 
 [NEXT] -> Basemap Properties
 
+This is how a finished basemap tile looks.
+All the data that goes into the basemap is
+static or at least valid for a long term
+it is of general interest
+
+from the point of a user, only one basemap is visible at any time.
+
+the composition of the map may depend on the region or application. 
+For example, for a map of the alps, topography info is very important. for flat land, not so much.
+
+updates for the basemap are resource intensive, and so they are rendered server-side 
+
 [NEXT] -> Overlays
+
+The other important concept besides basemaps are overlays:
+
+<start on the bottom!>
+Several of them can be put on top of the basemap to show
+waypoints on a route
+realtime locations of people/animals/devices
+points of interest
 
 [NEXT] -> Overlay Properties
 
+So all overlays are basically collections of things at locations
+They can be public or private
+Opposed to the basemaps, they are very dynamic, and multiple can be visible at a time.
+
 [NEXT] -> Basic Overlay applications
+
+Now we can - with a little story - show what things we can do with these overlays:
+
+...
 
 [NEXT] -> Advanced Overlay applications
 
-[NEXT] -> Architecure Overview
+...
+
+[NEXT] -> Architecture Overview
+
+So now you get a rough idea how the whole thing comes together:
+
+We generate (TileMill) and stream (TileStream) the Basemap
+
+Overlays can come from several sources, we will go into more detail there soon.
+
+The basemaps and overlays are registered in a (yet to be built) directory server, where the client can search for them, and finally access them.
+
+With this idea of where we want to go, let's check out what we already have:
 
 [NEXT] -> #What do we have
 TODO: Remove staging slide!
 
+First in the sense of other projects upon which we built.
+We could not do this without ...
+
 [NEXT] -> Why not OSM?
+
+One question we are repeatedly confronted with is "Why don't you just put everything into OSM?
+
+Two reasons: not everything is in OSM and not everything belongs in osm
 
 [NEXT] -> Map Forge
 
+...
+
 [NEXT] -> Map Forge Screenshot
+
+...
 
 [NEXT] -> Map Delivery
 
+...
+
 [NEXT] -> DEMO TileStream
+
+...
 
 [NEXT] -> Overlays GeoJSON
 
+On core concept of the overlays is the GeoJSON format.
+It encodes a location and arbitrary key-value data as json
+
+
 [NEXT] -> Overlays
 
-[NEXT] -> Client
+So the simplest overlay is a static, read-only geojson file which can be accessed by url
 
+The data can also be a bit more dynamic, spaceAPI is a list of hackerspaces, with an additional url for each space that returns the state, if the space is open or closed. we can put this info as a status icon on the map
+
+We also have support for remotestorage, so you can create a list on your phone, and as long as you are connected to a rs account set up, can also access it on your laptop
+
+Navigation is also an overlay, a list of connected locations. We use routino to generate the routing info, which also builts upon OSM data.
+
+[NEXT] -> Client
+Now we come to the core piece of the whole thing, the client
+
+it is a modern html5 and javascript web application
+we are using modest maps as framework to get an render the basemap tiles and markers ontop of that.
+
+In the design and implementation, we put our focus on
+a design that is as lightweight as possible
+but can be extended with powerful plugins. we try to implement even the core functionality like routing as a plugin
+
+mobile integration is also very important, because we work with the real world, outside of this window.
+
+And, because we are on a nodejs meeting, the client is not a huge jquery monster, but assembled built and packaged with nodejs.
+
+An now, without further delay, you finally get to see the client in action:
+ 
 [NEXT] -> DEMO Client
+
+...
 
 [NEXT] -> NPM Package
 
+...
+
 [NEXT] -> Comfortable Build Process
 
+...
+
 [NEXT] -> Ops friendly deploy
+
+...
 
 [NEXT] -> #What do we need?
 
