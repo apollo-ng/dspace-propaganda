@@ -1,0 +1,108 @@
+Hi everbody, this is X, I am Y, and we want to talk to you about Dspace today.
+
+Who has ever heard the term "DSpace" before?
+
+...
+
+[NEXT] -> Question
+
+We want to start with a question:
+If life was a computer game, which features are missing in the interface?
+
+...
+
+[NEXT] -> street Boring
+
+...
+
+[NEXT] -> street dspaced
+
+This is the vision we have, where we want to go.
+We are not there yet, but we have all the basic building blocks together.
+And that's what we're going to show you today...
+
+[NEXT] -> TOC
+
+Split into 
+Who we are,
+what we want
+what we have
+and what we need
+
+[NEXT] -> #Who we are
+
+While the two of us give you this presentation today
+there are more people heavily involved in this project.
+we are a small group of software hackers and we do this in our free time, so this gets us to what we want:
+
+[NEXT] -> #What do we want: Something like a standard
+
+TODO: Remove staging slide!
+
+We want to start something like a standard. We are not a startup and are not looking for a business model here.
+
+We were inspired by the origin of the www, and we want to establish a framework of 
+federated
+free (as in beer and as in speech)
+open-sourced
+loosly coupled
+and extendable
+components
+
+tim berners lee put the concept of cross-referenced publications to the electronic realm, when he created the Web at cern
+and in that spirit we want to work upon maps,
+starting with the fundamental Basemap:
+
+[Next] -> Basemaps
+
+...
+
+[NEXT] -> Basemap Properties
+
+[NEXT] -> Overlays
+
+[NEXT] -> Overlay Properties
+
+[NEXT] -> Basic Overlay applications
+
+[NEXT] -> Advanced Overlay applications
+
+[NEXT] -> Architecure Overview
+
+[NEXT] -> #What do we have
+TODO: Remove staging slide!
+
+[NEXT] -> Why not OSM?
+
+[NEXT] -> Map Forge
+
+[NEXT] -> Map Forge Screenshot
+
+[NEXT] -> Map Delivery
+
+[NEXT] -> DEMO TileStream
+
+[NEXT] -> Overlays GeoJSON
+
+[NEXT] -> Overlays
+
+[NEXT] -> Client
+
+[NEXT] -> DEMO Client
+
+[NEXT] -> NPM Package
+
+[NEXT] -> Comfortable Build Process
+
+[NEXT] -> Ops friendly deploy
+
+[NEXT] -> #What do we need?
+
+[NEXT] -> Directory Server
+
+[NEXT] -> Client
+
+[NEXT] -> Collaboration
+TODO: irc here?
+
+[NEXT] -> End
