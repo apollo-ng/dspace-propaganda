@@ -100,9 +100,45 @@ TODO: Remove staging slide!
 
 [NEXT] -> Directory Server
 
+What we need in the sense that it has not yet been done:
+a directory server, where all the basmaps and overlay feeds can be registered and be accessed by the client.
+
+It would have to be
+federated, the directory should sync between instances
+searchable, so the served results can be filterd by the request of the client. to do that efficiently,:
+there should be some kind of user-based ranking or voting system to sort entries by importance and filter out spam
+there should be metadata that states the region the map or overlay covers 
+and keywords to classify and search upon the entries
+
+to do this, we are thinking about a format that has as attributes
+the url where to actually access the data (which is also a good primary index)
+type, which distinguishes basmaps and overlays 
+topleft and bottomright, which are coordinates for the enclosing rectangle of the area of interest.
+and attributes for the search.
+
+so the directory server would manage a list of such entries, sync them between instances and serve them to the client.
+
 [NEXT] -> Client
 
+For the client, we have to provide more functionality for overlays.
+For the moment, we just render simple points with markers, but we want to
+put arbitrary polygons on the map, which we started with the routing
+put translated images on the map, so you can make overlays out of floorplans of buildings etc.
+put 3d geometry on the map, for representation of structures and more
+
+because the world outside is so crucial for dspace, we really have to focus on mobile usabilty. it has to be comfortable and efficient to use on the smartphones and tablets running ios and android.
+
+and we are really looking forward to what we can do with google glass,
+bringing us one step closer to the video game interface in the beginning
+
+Related to the directory server, we need a browser for overlays (and also basemaps), (Maybe we should call it directory browser?), where we can search for data
+
+Encryption is another thing we want to put a focus on, we omitted it in the beginning, to focus on the core technology, but we want to provide good tools to protect privacy.
+
 [NEXT] -> Collaboration
+
 TODO: irc here?
+
+
 
 [NEXT] -> End
