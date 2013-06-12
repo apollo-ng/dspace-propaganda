@@ -188,28 +188,39 @@
 \setbeamertemplate{headline}{}
 \setbeamertemplate{footline}{}
 \begin{frame}[plain]
-\frametitle{\vspace{-2.12ex}Interface View}
-Image Street - boring
-\pause
-Image Street - DSpaced
+\frametitle{\vspace{-2.40ex}Regular Interface View}
+ \begin{center}
+ \vspace{2.40ex}
+  \includegraphics[scale=0.23]{images/streetview}
+ \end{center}
+\end{frame}
+}
+
+{
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\begin{frame}[plain]
+\frametitle{\vspace{-2.40ex}Hyperspaced Interface View}
+ \vspace{2.40ex}
+  \includegraphics[scale=0.214]{images/dspace-fiction}
 \end{frame}
 }
 
 \addtocounter{framenumber}{-1}
 
 %--- the toc frame -------------------------%
+%
+%{
+%\setbeamertemplate{headline}{}
+%\setbeamertemplate{footline}{}
+%\begin{frame}[plain]
+%\frametitle{\vspace{-2.12ex}Talk-Contents}
+% \tableofcontents
+%\end{frame}
+%}
 
-{
-\setbeamertemplate{headline}{}
-\setbeamertemplate{footline}{}
-\begin{frame}[plain]
-\frametitle{\vspace{-2.12ex}Talk-Contents}
- \tableofcontents
-\end{frame}
-}
-
-\addtocounter{framenumber}{-1}
-\setcounter{page}{1}
+%\addtocounter{framenumber}{-1}
+%\setcounter{page}{1}
 
 %
 %  Begin Content
@@ -224,15 +235,12 @@ Image Street - DSpaced
  \end{center}
 \end{frame}
 
+
 \section{What do we want?}
 
-\begin{frame}{What do we want?}
- Staging our wants
-\end{frame}
-
 \begin{frame}{Something like a standard}
- Increase the likelyhood and efficiency of adding/sharing information by introducing
- a standardized framework like the W3c in 1993.
+ Increase the likelyhood and efficiency of adding/sharing geolocation based information by introducing
+ a standardized framework like the W3 in 1993.
  \linebreak
  \begin{itemize}
   \item Federation
@@ -381,10 +389,6 @@ Image Street - DSpaced
 \section{What do we have?}
 
 \begin{frame}{What do we have?}
- Staging our haves
-\end{frame}
-
-\begin{frame}{What do we have?}
  \begin{center}
   \vspace{0.8em}
   \includegraphics[scale=0.281]{images/logos}
@@ -446,7 +450,8 @@ Image Street - DSpaced
 \end{frame}
 
 \begin{frame}{Map Forge Screenshot}
-Include picture of Map Forge in action
+  \vspace{2ex}
+  \includegraphics[scale=0.324]{images/tilemill-screenshot.png}
 \end{frame}
 
 \setbeamertemplate{blocks}[rounded]
@@ -477,7 +482,7 @@ Include picture of Map Forge in action
 \tiny{*Obviously, this should be running as a service :)}
 \end{frame}
 
-\begin{frame}{Live DEMO of the TileStream WebUI}
+\begin{frame}{Screenshot of the TileStream WebUI}
  \begin{center}
   \includegraphics[scale=0.3]{images/tilestream_ui}
  \end{center}
@@ -738,18 +743,18 @@ People ...
 \end{itemize}
 \end{frame}
 
-%\begin{frame}{Utopia}
-% Augmented Reality glasses (contact lens FTW!)
-% ...
-%\end{frame}
+{
+\setbeamertemplate{headline}{}
+\begin{frame}[plain]
+\frametitle{\vspace{-2.40ex}The End - Thank you for your attention}
+  \vspace{3ex}
+  \includegraphics[scale=0.16]{images/qrcode.png}
+  \linebreak
+  \begin{tiny}https://apollo.open-resource.org/events:talk:2013:06:13:dspace-introduction\end{tiny}
+  \vspace{1ex}
 
-\begin{frame}{The End}
- Thanks for your attention. May the daemon be with you.
-
- [QR + URL]
-
- Questions?
+  Questions?
 \end{frame}
-
+}
 
 \end{document}
