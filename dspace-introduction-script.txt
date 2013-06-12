@@ -137,8 +137,16 @@ Encryption is another thing we want to put a focus on, we omitted it in the begi
 
 [NEXT] -> Collaboration
 
-TODO: irc here?
+So far we covered the technological side of what we need, but in order to run a federated project, the most important thing we need is other humans.
 
+We need people making and serving basemaps. Federation by location
+We need people who expose existing geodata as overlays to dspace
+and we need people who push ahead development, writing documentation, reporting and fixing bugs and inspire and implement new features.
 
+We are finished here we this call, if you want to learn more and keep in contact, you can find all info here:
 
 [NEXT] -> End
+
+Thank you for your attention.
+
+Any questions?
